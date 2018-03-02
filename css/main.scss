@@ -6,6 +6,287 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+		"normalize.css",
         "base",
         "../neat/neat"
 ;
+
+$grid: (
+  columns: 1,
+  gutter: 2rem,
+);
+
+$grid--tablet-up: (
+  columns: 12,
+  gutter: 2rem,
+  media: "(min-width: 768px)",
+);
+
+$no-gutter: (
+	columns: 1,
+	gutter: 0,
+);
+
+$no-gutter--tablet-up: (
+	columns: 12,
+	gutter: 0,
+    media: "(min-width: 768px)",
+);
+
+html {
+	-webkit-font-smoothing: antialised;
+	font-smoothing: antialised;
+}
+
+body {
+
+}
+
+ul {
+	list-style: none;
+}
+
+.hero {
+	background-size: cover;
+	background-position: center;
+
+	padding-top: 60px; 
+
+  	@include grid-media($grid--tablet-up) {
+  		height: 600px;
+  	}
+}
+
+.hero__container {
+	@include grid-container;
+	height: auto;
+}
+
+.hero__hashtag {
+	font-size: 70px;
+	color: $red;
+	font-family: "Serapion II";
+	font-style: italic;
+	display: block; 
+	padding: 0px 20px 20px 40px;
+	text-align: center;
+}
+
+.hero__list {
+	font-size: 50px;
+	color: $red;
+	font-family: "Serapion II";
+	font-style: italic;
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.hero__list li {
+	margin-bottom: 20px;
+}
+
+.hero__list a {
+	color: $red;
+	text-decoration: none;
+}
+
+.hero__list a:hover {
+	border-bottom: 2px solid $red;
+}
+
+.header--campaign {
+	width: 100vw;
+	padding: 12px 0 8px 0;
+	font-family: "Serapion II";
+	font-style: italic;
+	font-size: 30px;
+	color: $darkblue;
+	text-align: center;
+}
+
+.hero__left, .hero__right {
+  @include grid-column(1, $grid);
+
+  @include grid-media($grid--tablet-up) {
+  	@include grid-column(6);
+  }
+}
+
+/* ARTICLES */
+
+.articles {
+	@include grid-container;
+}
+
+.article__container {
+	display: block;
+	position: relative;
+
+	@include grid-media($no-gutter--tablet-up) {
+		height: 50vw;
+	}
+}
+
+.article__image {
+
+	@include grid-column(1, $no-gutter);
+
+	@include grid-media($no-gutter--tablet-up) {
+		@include grid-column(6);
+		height: 50vw;
+	}
+
+	background-size: cover;
+	background-position: center;
+
+	display: block;
+
+	height: 100vw;
+}
+
+.article__text {
+	@include grid-column(1, $no-gutter);
+
+	@include grid-media($no-gutter--tablet-up) {
+		@include grid-column(6);
+		height: 50vw;
+	}
+
+	position: relative;
+}
+
+.article__text--centered {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 80px;
+
+	@include grid-media($no-gutter--tablet-up) {
+		position: absolute;
+		top: 0; left: 0; right: 0; bottom: 0;
+		height: 380px;
+	}
+}
+
+.article__text--centered h2, .article__name h2 {
+	font-size: 35px;
+	@include grid-media($no-gutter--tablet-up) {
+		font-size: 65px;
+	}
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Serapion II";
+	font-style: italic;
+	margin-bottom: 2rem;
+	color: #fff;
+}
+
+.article__text--centered p {
+	margin-top: 0;
+	text-align: center;
+	font-family: "Serapion II";
+	font-style: italic;
+	font-size: 20px;
+	color: #fff;
+}
+
+.blue {
+	background: $darkblue;
+}
+
+.beige {
+	background: $beige;
+}
+
+.article__button--more, .article__button--blue, .article__button--red {
+	border-radius: 25px;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	font-family: "Basis Grotesque";
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 12px 20px 8px 20px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 0.05em;
+	display: block;
+	width: 120px;
+	margin: 40px auto 0 auto;
+}
+
+.bottom-stick {
+	position: absolute;
+	bottom: 40px;
+	left: 0; right: 0;
+}
+
+.article__button--blue {
+	color: $darkblue;
+	border-color: $darkblue;
+}
+
+.article__button--red {
+	color: $red;
+	border-color: $red;
+}
+
+.article__image--large {
+	height: 100vw;
+	@include grid-media($no-gutter--tablet-up) {
+		height: 50vw;
+	}
+}
+
+.article__image--large h2 {
+	color: $red;
+}
+
+.article__name {
+	padding: 40px;
+	position: absolute; 
+	top: 0; left: 0; right: 0; bottom: 0;
+	display: block;
+	margin: auto;
+	height: 200px;
+}
+
+.help__container {
+	@include grid-media($no-gutter--tablet-up) {
+		padding: 40px;
+	}
+}
+
+.help__text {
+	display: block;
+	margin: auto;
+	color: $darkblue;
+	padding: 40px;
+
+	border: 7px solid $yellow;
+
+	@include grid-media($no-gutter--tablet-up) {
+		width: 50vw;
+		position: relative;
+		margin: auto;
+	}
+}
+
+.help__text h3 {
+	font-family: "Serapion II";
+	font-size: 35px;
+	text-align: center;
+	margin: 20px;
+
+	@include grid-media($no-gutter--tablet-up) {
+		font-size: 50px;
+	}
+}
+
+.help__text p {
+	font-family: "Basis Grotesque";
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.5em;
+}
