@@ -165,7 +165,9 @@ ul {
 	@include grid-media($no-gutter--tablet-up) {
 		position: absolute;
 		top: 0; left: 0; right: 0; bottom: 0;
-		height: 380px;
+		margin: auto;
+		height: 340px;
+		padding-bottom: 80px;
 	}
 }
 
