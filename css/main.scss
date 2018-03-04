@@ -335,15 +335,18 @@ ul {
 .campaign__body {
 	@include grid-container;
 
+	padding: 2rem;
+
 	@include grid-media($grid--tablet-up) {
 		margin: auto;
-		width: 942px;
+		max-width: 942px;
+		width: 100%;
 	}	
 
 
 	h1 {
 		padding: 2rem 0 0 0; 
-		font-size: 45px;
+		font-size: 35px;
 		font-family: "Serapion II";
 		color: $red;
 		line-height: 1.1em;
@@ -398,7 +401,13 @@ ul {
 				@include grid-push(3);
 			}
 		}
+	}
 
+	img {
+		width: 100%;
+		@include grid-media($grid--tablet-up) {
+			@include grid-column(12);
+		}
 	}
 }
 

@@ -6,12 +6,12 @@ layout: default
 	HUGUÐ
 </header>
 
-<section class="hero hero__container--campaign" style="background-image: url('/img/living-room.jpg')">
+<section class="hero hero__container--campaign" style="background-image: url('{{ page.cover_photo }}')">
 	<h1 class="campaign__title">
 		{{ page.title }}
 	</h1>
 
-	<a href="" class="article__button--more bottom-stick">Spila viðtal ▷</a>
+	<a href="{{ page.video_url }}" class="article__button--more bottom-stick">Spila viðtal ▷</a>
 </section>
 
 <section class="campaign__body">
@@ -23,13 +23,13 @@ layout: default
 		Næsta grein
 	</a>
 </div>
-<section class="hero hero__container--campaign" style="background-image: url('/img/living-room.jpg')">
+<section class="hero hero__container--campaign" style="background-image: url('{{ page.next_article_cover_photo }}')">
 	<div class="campaign__title campaign__title--excerpt">
-		{{ page.title }}
+		{{ page.next_article_title }}
 		<p>
-			Við erum allir með einhverskonar kvíða og látum hvorn annan vita þegar okkur líður ekki vel.
+			{{ page.next_article_caption }}
 		</p>
 	</div>
 
-	<a href="" class="article__button--red bottom-stick">Lesa meira</a>
+	<a href="{{ page.next_article_url }}" class="article__button--red bottom-stick">Lesa meira</a>
 </section>

@@ -20,5 +20,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Cover photo", name: "cover_photo", widget: "image"}
       - {label: "Next article url", name: "next_article_url", widget: "string"}
       - {label: "Next article title", name: "next_article_title", widget: "string"}
-      - {label: "next article caption", name: "next_article_caption", widget: "string"}
+      - {label: "Next article caption", name: "next_article_caption", widget: "string"}
+      - {label: "Next article cover photo", name: "next_article_cover_photo", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
