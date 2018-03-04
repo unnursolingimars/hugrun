@@ -15,4 +15,3 @@ markdown: kramdown
 collections:
   posts:
     output: true
-    permalink: /:title/
