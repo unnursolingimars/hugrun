@@ -1,0 +1,8 @@
+---
+layout: campaign-article
+title:  "Tryggvi"
+date:   2018-03-01 12:00:00
+categories: hugud
+permalink: /hugud/tryggvi
+---
+

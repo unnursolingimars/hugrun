@@ -10,3 +10,9 @@ facebook_username: gedfraedsla
 
 # Build settings
 markdown: kramdown
+
+
+collections:
+  posts:
+    output: true
+    permalink: /:title/

@@ -1,0 +1,8 @@
+---
+layout: campaign-article
+title:  "Sonja"
+date:   2018-03-01 12:00:00
+categories: hugud
+permalink: /hugud/sonja
+---
+
