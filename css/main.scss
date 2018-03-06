@@ -335,8 +335,9 @@ ul {
 /* CAMPAIGN */
 
 .campaign__title {
-	font-family: "Serapion II";
+	@include serif;
 	font-size: 35px;
+	font-style: italic;
 	text-align: center;
 	margin: 20px;
 	text-transform: uppercase;
@@ -348,7 +349,7 @@ ul {
 	margin: auto;
 
 	@include grid-media($grid--tablet-up) {
-		font-size: 45px;
+		font-size: 65px;
 	}
 }
 
@@ -497,7 +498,7 @@ ul {
 	@include grid-media($grid--tablet-up) {
 		font-size: 65px;
 	}
-	
+
 
 	@include grid-media($grid--mobile-up) {
 		font-size: 45px;
@@ -518,6 +519,9 @@ ul {
 }
 
 .main__actions--container li {
+	&:hover {
+		box-shadow: inset 0 0 0px 5px $yellow;
+	}
 	@include grid-column(6);
 	text-align: center;
 	@include grid-media($grid--tablet-up) {
@@ -528,6 +532,9 @@ ul {
 .main__actions--container a {
 	text-decoration: none;
 	outline: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
 }
 
 .main__actions--text {
@@ -543,7 +550,7 @@ ul {
 }
 
 .main__box {
-	margin: 50px auto;
+	margin: 50px 2rem;
 	border: 7px solid $darkblue;
 
 	width: auto;
@@ -551,7 +558,8 @@ ul {
 	padding-bottom: 80px;
 
 	@include grid-media($grid--tablet-up) {
-		width: 377px;
+		margin: 50px auto;
+		width: 580px;
 	}
 }
 
@@ -559,6 +567,9 @@ ul {
 	border-color: $beige;
 }
 
+.main__box--yellow {
+	border-color: $yellow;
+}
 
 .main__box a {
 	color: inherit;
@@ -567,7 +578,7 @@ ul {
 .main__box h3 {
 	@include serif;
 	font-size: 45px;
-	padding: 40px 40px 20px 40px;
+	padding: 40px 40px 0px 40px;
 	margin: 0;
 	color: $red;
 	text-align: center;
@@ -586,7 +597,9 @@ ul {
 	font-size: 14px;
 }
 
-.main__box--beige a, .main__box--beige h3, .main__box--beige span {
+.main__box--beige a, .main__box--beige h3, .main__box--beige span,
+.main__box--yellow a, .main__box--yellow h3, .main__box--yellow span,
+ {
 	color: $darkblue;
 }
 
@@ -664,4 +677,130 @@ ul {
 	left: 0; 
 	right: 0;
 	text-align: center;
+}
+
+.main__posts--heading {
+	@include serif;
+	color: $red;
+	font-size: 40px;
+	padding: 88px 2rem 56px 2rem;
+	max-width: calc(1180px - 4rem);
+	margin: auto;
+}
+
+.main__posts {
+	@include grid-container;
+	max-width: 1180px;
+	margin: auto;
+}
+
+.main__post--article {
+	@include grid-column(12);
+	@include grid-media($grid--tablet-up) {
+		@include grid-column(4);
+	}
+	margin-bottom: 40px;
+}
+
+.main__post--image {
+	padding-top: 63%;
+	background-size: cover;
+}
+
+.main__post--date {
+	@include sans;
+	font-weight: 700;
+	color: $red;
+	font-size: 12px;
+	letter-spacing: 0.18em;
+	margin-top: 10px;
+	display: block; 
+	@include grid-media($grid--tablet-up) {
+		padding-left: 25%;
+	}
+}
+
+.main__post--article h4 {
+	@include serif;
+	color: $red;
+	font-size: 30px;
+	margin: 20px 0px 18px 0px;
+}
+	
+.main__post--article p {
+	@include sans;
+	color: $darkblue;
+	font-size: 14px; 
+	line-height: 16px;
+	@include grid-media($grid--tablet-up) {
+		padding-left: 25%;
+	}
+}
+
+.main__post--read {
+	@include sans-caps;
+	font-size: 14px;
+	color: $red;
+
+	@include grid-media($grid--tablet-up) {
+		padding-left: 25%;
+	}
+}
+
+.main__constrain {
+	margin: auto;
+	@include grid-media($grid--tablet-up) {
+		margin-top: 40px;
+		max-width: 1180px;
+	}
+}
+
+.main__footer {
+	border-top: 1px solid $red;
+}
+
+.footer__logos {
+	@include grid-container;
+}
+
+.footer__logo--left, .footer__logo--right {
+	display: inline-block;
+	height: 39px;
+	margin-top: 35px;
+	width: auto;
+
+	img {
+		height: 100%;
+	}
+}
+
+.footer__logo--left {	
+	@include grid-column(12);
+
+	@include grid-media($grid--tablet-up) {
+		@include grid-column(6);
+	}
+}
+
+.footer__logo--right {
+	@include grid-column(12);
+	margin-top: 100px;
+	text-align: right; 
+
+	@include grid-media($grid--tablet-up) {
+		margin-top: 35px;
+		@include grid-column(6);
+	}
+}
+
+.main__footer a {
+	@include sans;
+	color: $red;
+
+}
+
+.footer__links {
+	@include grid-column(12);
+	margin: 2rem;
+	line-height: 30px;
 }
