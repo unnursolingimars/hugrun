@@ -348,7 +348,6 @@ ul {
 		width: 100%;
 	}	
 
-
 	h1 {
 		font-family: "Serapion II";
 		padding: 2rem 0 0 0; 
@@ -364,12 +363,11 @@ ul {
 		}
 	}
 
-
 	h2 {
 		@include serif;
 		font-size: 25px;
 		margin: 0; 
-		padding: 2rem 0px 0rem 0px;
+		padding: 4rem 0px 0rem 0px;
 		color: $red;
 		@include grid-media($grid--tablet-up) {
 			@include grid-column(9);
@@ -440,7 +438,7 @@ ul {
 .header__page {
 	@include serif;
 	width: 100vw;
-	padding: 12px 0 8px 0;
+	padding: 12px 0 1px 0;
 	font-size: 30px;
 	color: $darkblue;
 	text-align: center;
@@ -462,10 +460,8 @@ ul {
 
 .main__hero h2 {
 	@include serif;
-	display: inline-block;
-	vertical-align: center;
-	height: auto;
-	margin: auto;
+	display: table-cell;
+	vertical-align: middle;
 	text-align: center;
 	padding: 40px;
 	font-size: 35px;
@@ -473,7 +469,46 @@ ul {
 	@include grid-media($grid--tablet-up) {
 		font-size: 65px;
 	}
+
 }
 
 .main__actions {
+
+}
+
+.main__actions--container {
+	@include grid-container;
+	background: $darkblue;
+	margin: 0;
+	padding: 0;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.main__actions--container li {
+	@include grid-column(6);
+	text-align: center;
+	@include grid-media($grid--tablet-up) {
+		@include grid-column(3);
+	}
+}
+
+.main__actions--container a {
+	text-decoration: none;
+	outline: 0;
+}
+
+.main__actions--text {
+	color: #fff;
+	font-family: "Basis Grotesque";
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.18em;
+	margin: 10px 0px 25px 0px;
+	text-transform: uppercase;
+}
+
+.main__actions--container li img {
+	margin: 25px 10px;
+	height: 30px;
 }
