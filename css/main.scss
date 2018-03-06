@@ -12,6 +12,15 @@
         "../neat/neat"
 ;
 
+a {
+	color: inherit;
+}
+
+em {
+	text-decoration: underline;
+	font-style: normal;
+}
+
 @mixin serif {
 	font-family: "Serapion OSF";
 	font-weight: 300;
@@ -22,6 +31,18 @@
 	font-style: italic;
 }
 
+@mixin sans {
+	font-family: "Basis Grotesque";
+	font-weight: 300;
+}
+
+@mixin sans-caps {
+	font-family: "Basis Grotesque";
+	font-weight: 500;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+
 $grid: (
   columns: 1,
   gutter: 2rem,
@@ -30,7 +51,13 @@ $grid: (
 $grid--tablet-up: (
   columns: 12,
   gutter: 2rem,
-  media: "(min-width: 768px)",
+  media: "(min-width: 800px)",
+);
+
+$grid--mobile-up: (
+	columns: 12,
+	gutter: 2rem,
+	media: "(min-width:500px) and (max-width:800px)",
 );
 
 $no-gutter: (
@@ -41,7 +68,7 @@ $no-gutter: (
 $no-gutter--tablet-up: (
 	columns: 12,
 	gutter: 0,
-    media: "(min-width: 768px)",
+    media: "(min-width: 800px)",
 );
 
 html {
@@ -50,7 +77,7 @@ html {
 }
 
 body {
-
+	background: $light-gray;
 }
 
 ul {
@@ -145,7 +172,6 @@ ul {
 }
 
 .article__image {
-
 	@include grid-column(1, $no-gutter);
 
 	@include grid-media($no-gutter--tablet-up) {
@@ -243,7 +269,7 @@ ul {
 }
 
 .article__button--red {
-	color: $red;
+	color: $red !important;
 	border-color: $red;
 }
 
@@ -442,6 +468,7 @@ ul {
 	font-size: 30px;
 	color: $darkblue;
 	text-align: center;
+	background: #fff;
 }
 
 .header__logo {
@@ -463,13 +490,18 @@ ul {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-	padding: 40px;
+	padding: 40px 50px;
 	font-size: 35px;
 	color: white;
+
 	@include grid-media($grid--tablet-up) {
 		font-size: 65px;
 	}
+	
 
+	@include grid-media($grid--mobile-up) {
+		font-size: 45px;
+	}
 }
 
 .main__actions {
@@ -499,16 +531,137 @@ ul {
 }
 
 .main__actions--text {
-	color: #fff;
-	font-family: "Basis Grotesque";
+	@include sans-caps;
 	font-size: 14px;
-	font-weight: 500;
-	letter-spacing: 0.18em;
+	color: #fff;
 	margin: 10px 0px 25px 0px;
-	text-transform: uppercase;
 }
 
 .main__actions--container li img {
 	margin: 25px 10px;
 	height: 30px;
+}
+
+.main__box {
+	margin: 50px auto;
+	border: 7px solid $darkblue;
+
+	width: auto;
+	position: relative;
+	padding-bottom: 80px;
+
+	@include grid-media($grid--tablet-up) {
+		width: 377px;
+	}
+}
+
+.main__box--beige {
+	border-color: $beige;
+}
+
+
+.main__box a {
+	color: inherit;
+}
+
+.main__box h3 {
+	@include serif;
+	font-size: 45px;
+	padding: 40px 40px 20px 40px;
+	margin: 0;
+	color: $red;
+	text-align: center;
+
+	@include grid-media($grid--tablet-up) {
+		font-size: 65px;
+	}
+}
+
+.main__box span {
+	@include sans;
+	color: $red;
+	padding: 40px;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+}
+
+.main__box--beige a, .main__box--beige h3, .main__box--beige span {
+	color: $darkblue;
+}
+
+.main__articles ul {
+	@include grid-container;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+.main__articles li {
+	@include serif;
+	font-size: 30px;
+	color: $darkblue;
+	width: 100vw;
+	height: 100vw;
+	margin-left: 0 !important; 
+	padding: 0;
+	display: table;
+	position: relative;
+
+	&:hover {
+		box-shadow: inset 0 0 0px 7px $yellow;
+	}
+
+	&:nth-child(1) {
+		color: #fff;
+		background: $red;	
+	}
+	&:nth-child(3) {
+		color: #fff;
+		background: $darkblue;
+	}
+	&:nth-child(6) {
+		color: #fff;
+		background: $beige;
+	}
+	&:nth-child(8) {
+		color: #fff;
+		background: $gray;
+	}
+
+	@include grid-media($grid--mobile-up) {
+		@include grid-column(6);
+		width: 50vw;
+		height: 50vw;
+	}
+
+	@include grid-media($grid--tablet-up) {
+		@include grid-column(3);
+		width: 25vw;
+		height: 25vw;
+	}
+}
+
+.main__articles li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	display: table-cell;
+}
+
+.main__articles li:after {
+	@include sans-caps;
+	content: "Lesa";
+	text-decoration: underline;
+	font-size: 14px;
+	position: absolute;
+	margin: auto;
+	bottom: 30px;
+	display: block;
+	left: 0; 
+	right: 0;
+	text-align: center;
 }
