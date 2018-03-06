@@ -12,6 +12,16 @@
         "../neat/neat"
 ;
 
+@mixin serif {
+	font-family: "Serapion OSF";
+	font-weight: 300;
+}
+
+@mixin italic {
+	font-family: "Serapion II";
+	font-style: italic;
+}
+
 $grid: (
   columns: 1,
   gutter: 2rem,
@@ -71,20 +81,18 @@ ul {
 }
 
 .hero__hashtag {
+	@include italic;
 	font-size: 70px;
 	color: $red;
-	font-family: "Serapion II";
-	font-style: italic;
 	display: block; 
 	padding: 0px 20px 20px 40px;
 	text-align: center;
 }
 
 .hero__list {
+	@include italic;
 	font-size: 50px;
 	color: $red;
-	font-family: "Serapion II";
-	font-style: italic;
 	text-align: center;
 	list-style: none;
 	margin: 0;
@@ -105,10 +113,9 @@ ul {
 }
 
 .header--campaign {
+	@include italic;
 	width: 100vw;
 	padding: 12px 0 8px 0;
-	font-family: "Serapion II";
-	font-style: italic;
 	font-size: 30px;
 	color: $darkblue;
 	text-align: center;
@@ -180,23 +187,21 @@ ul {
 }
 
 .article__text--centered h2, .article__name h2 {
+	@include italic;
 	font-size: 35px;
 	@include grid-media($no-gutter--tablet-up) {
 		font-size: 65px;
 	}
 	text-transform: uppercase;
 	text-align: center;
-	font-family: "Serapion II";
-	font-style: italic;
 	margin-bottom: 2rem;
 	color: #fff;
 }
 
 .article__text--centered p {
+	@include italic;
 	margin-top: 0;
 	text-align: center;
-	font-family: "Serapion II";
-	font-style: italic;
 	font-size: 20px;
 	color: #fff;
 }
@@ -345,9 +350,9 @@ ul {
 
 
 	h1 {
+		font-family: "Serapion II";
 		padding: 2rem 0 0 0; 
 		font-size: 35px;
-		font-family: "Serapion II";
 		color: $red;
 		line-height: 1.1em;
 		text-transform: uppercase;
@@ -361,8 +366,8 @@ ul {
 
 
 	h2 {
+		@include serif;
 		font-size: 25px;
-		font-family: "Serapion OSF";
 		margin: 0; 
 		padding: 2rem 0px 0rem 0px;
 		color: $red;
@@ -375,7 +380,7 @@ ul {
 	p {
 		font-size: 18px;
 		line-height: 26px;
-		font-weight: medium;
+		font-weight: 500;
 		color: $darkblue;
 		margin: 1rem 0 0 0;
 		font-family: "Basis Grotesque";
@@ -388,7 +393,7 @@ ul {
 	blockquote {
 		margin: 0;
 		p {
-			font-family: "Serapion OSF";
+			@include serif;
 			font-style: normal;
 			color: $red;
 			font-size: 24px;
@@ -429,4 +434,46 @@ ul {
 	&:hover {
 		border-bottom: 2px solid $red;
 	}
+}
+
+/* MAIN PAGE */
+.header__page {
+	@include serif;
+	width: 100vw;
+	padding: 12px 0 8px 0;
+	font-size: 30px;
+	color: $darkblue;
+	text-align: center;
+}
+
+.header__logo {
+	height: 29px;
+}
+
+.main__hero {
+	width: 100vw;
+	height: calc(100vh - 50px);
+	max-height: 600px;
+	display: table;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+}
+
+.main__hero h2 {
+	@include serif;
+	display: inline-block;
+	vertical-align: center;
+	height: auto;
+	margin: auto;
+	text-align: center;
+	padding: 40px;
+	font-size: 35px;
+	color: white;
+	@include grid-media($grid--tablet-up) {
+		font-size: 65px;
+	}
+}
+
+.main__actions {
 }
