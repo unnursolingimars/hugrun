@@ -1,18 +1,29 @@
 ---
 layout: default
 ---
-
 {% include top_bar.html %}
 
 <section class="main__hero" style="background-image: url('{{ page.header_image }}')">
   <div class="overlay"></div>
 
   <div class="main__quote_container">
-  	<h2><span>Hugrún er geðfræðslufélag stofnað af nemendum í hjúkrunarfræði, læknisfræði og sálfræði við Háskóla Íslands.</span></h2>
+  	<h2><span>Hugum að geðheilbrigði.<br>Verum #Huguð.</span></h2>
   </div>
 
-  <a class="article__button--more bottom-stick" href="">Lesa meira</a>
+  <a class="article__button--more bottom-stick" href="/hugud">Lesa meira</a>
 </section>
+
+<script>
+	var coverPhotos = [
+{% assign post_count = 0 %}
+{% for post in site.posts %}
+{% if post.cover_photo %}"{{ post.cover_photo }}",{% endif %}
+{% endfor %}
+	];
+
+	$(".main__hero").css("background-image", "url('" + coverPhotos[Math.floor(Math.random()*coverPhotos.length)] + "')");
+
+</script>
 
 <nav class="main__actions">
   <ul class="main__actions--container">
@@ -73,7 +84,7 @@ layout: default
 </section>
 
 {% include campaign_hero.html %}
-
+<!--
 <div class="main__posts--heading">
 	Greinar og fréttir
 </div>
@@ -106,7 +117,9 @@ layout: default
 		<a href="" class="main__post--read">Lesa</a>
 	</article>
 </section>
+-->
 
+<!--
 <section class="hero hero__container--campaign main__constrain" style="background-image: url('/img/uploads/img_0057.jpg')">
 	<h3 class="campaign__title">
 		Titill á herferð
@@ -114,6 +127,7 @@ layout: default
 
 	<a href="{{ page.video_url }}" class="article__button--red bottom-stick">LESA MEIRA</a>
 </section>
+-->
 
 <section class="main__box main__box--yellow">
 	<h3>HVERT<br>SKAL-<br>LEITA?</h3>
@@ -136,6 +150,6 @@ layout: default
 
 	<div class="footer__links">
 		<a href="mailto:gedfraedsla@gedfraedsla.is">gedfraedsla@gedfraedsla.is</a><br>
-		<a href="https://instagram.com/gedfraedsla">@gedfraedsla</a>
+		<a href="https://twitter.com/gedfraedsla">@gedfraedsla</a>
 	</div>
 </footer>
