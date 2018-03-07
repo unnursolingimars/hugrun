@@ -10,21 +10,32 @@ layout: default
 	<h1 class="campaign__title">
 		{{ page.title }}
 	</h1>
-
-	<a href="{{ page.video_url }}" class="article__button--more bottom-stick">Spila viðtal ▷</a>
+	<div class="campaign__arrow"></div>
 </section>
 
 <section class="campaign__body">
-	{{ content }}
+	<div class="campaign__header">
+		<h1>{{ page.subtitle }}</h1>
+		<p class="campaign__intro">
+			{{ page.intro }}
+		</p>
+	</div>
+
+	<div class="campaign__video--wrap">
+		<iframe src="https://player.vimeo.com/video/{{ page.vimeo_id }}?color=d1503b&title=0&byline=0&portrait=0" class="campaign__video" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>
+	<div class="campaign__content">
+		{{ content }}
+	</div>
 </section>
 
 <div class="campaign__next">
-	<a href="" class="campaign__next--link">
+	<a class="campaign__next--link">
 		Næsta grein
 	</a>
 </div>
 <section class="hero hero__container--campaign" style="background-image: url('{{ page.next_article_cover_photo }}')">
-	<div class="campaign__title campaign__title--excerpt">
+	<div class="campaign__title--next campaign__title--excerpt">
 		{{ page.next_article_title }}
 		<p>
 			{{ page.next_article_caption }}
@@ -33,3 +44,10 @@ layout: default
 
 	<a href="{{ page.next_article_url }}" class="article__button--red bottom-stick">Lesa meira</a>
 </section>
+<script>
+	$(".campaign__body img").each(function(i, el) { 
+		console.log(i, el);
+			var styleIndex = i % 3;
+			$(el).parent().addClass("imgstyle_"+styleIndex);
+		});
+</script>
