@@ -25,3 +25,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Next article caption", name: "next_article_caption", widget: "string"}
       - {label: "Next article cover photo", name: "next_article_cover_photo", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+
+  - name: "page"
+    label: "Page"
+    folder: "pages"
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Cover photo", name: "cover_photo", widget: "image"}
+      - {label: "Page bottom photo", name: "page_bottom_photo", widget: "image"}

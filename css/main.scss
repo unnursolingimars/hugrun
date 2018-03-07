@@ -191,6 +191,19 @@ ul {
 	@include grid-container;
 }
 
+.article__heading {
+	font-family: "Serapion II";
+	font-weight: 300;
+	font-style: italic;
+	margin-top: 150px;
+	color: #fff;
+	text-align: center;
+
+  	@include grid-media($grid--tablet-up) {
+		font-size: 65px;
+	}
+}
+
 .article__container {
 	position: relative;
 
