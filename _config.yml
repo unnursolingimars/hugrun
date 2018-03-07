@@ -9,8 +9,7 @@ twitter_username: gedfraedsla
 facebook_username: gedfraedsla
 
 # Build settings
-markdown: kramdown
-
+markdown: redcarpet
 
 collections:
   posts:

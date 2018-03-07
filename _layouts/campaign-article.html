@@ -3,7 +3,7 @@ layout: default
 ---
 
 <header class="header--campaign">
-	HUGUÐ
+	<a href="/hugud">HUGUÐ</a>
 </header>
 
 <section class="hero hero__container--campaign" style="background-image: url('{{ page.cover_photo }}')">
@@ -24,7 +24,7 @@ layout: default
 	<div class="campaign__video--wrap">
 		<iframe src="https://player.vimeo.com/video/{{ page.vimeo_id }}?color=d1503b&title=0&byline=0&portrait=0" class="campaign__video" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div>
-	
+
 	<div class="campaign__content">
 		{{ content }}
 	</div>
@@ -36,6 +36,7 @@ layout: default
 	</a>
 </div>
 <section class="hero hero__container--campaign" style="background-image: url('{{ page.next_article_cover_photo }}')">
+	<div class="overlay"></div>
 	<div class="campaign__title--next campaign__title--excerpt">
 		{{ page.next_article_title }}
 		<p>

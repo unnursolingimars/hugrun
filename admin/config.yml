@@ -18,7 +18,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro", name: "intro", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Categories", name: "categories", widget: "string"}
-      - {label: "Video url", name: "video_url", widget: "string"}
+      - {label: "Vimeo id", name: "vimeo_id", widget: "string"}
       - {label: "Cover photo", name: "cover_photo", widget: "image"}
       - {label: "Next article url", name: "next_article_url", widget: "string"}
       - {label: "Next article title", name: "next_article_title", widget: "string"}

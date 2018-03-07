@@ -153,6 +153,11 @@ ul {
 	color: $darkblue;
 	text-align: center;
 	z-index: 2;
+
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
 }
 
 .hero__left, .hero__right {
@@ -170,8 +175,9 @@ ul {
 }
 
 .article__container {
-	display: block;
-	position: relative;
+	display: table;
+	
+	height: 500px;
 
 	@include grid-media($no-gutter--tablet-up) {
 		height: 50vw;
@@ -297,14 +303,27 @@ ul {
 .article__button--blue {
 	color: $darkblue;
 	border-color: $darkblue;
+
+	transition: all 150ms ease-in-out;
+	&:hover {
+		background: $darkblue;
+		color: #fff !important;
+	}
 }
 
 .article__button--red {
 	color: $red !important;
 	border-color: $red;
+
+	transition: all 150ms ease-in-out;
+	&:hover {
+		background: $red;
+		color: #fff !important;
+	}
 }
 
 .article__image--large {
+	width: 100vw;
 	height: 100vw;
 	@include grid-media($no-gutter--tablet-up) {
 		height: 50vw;
@@ -317,11 +336,8 @@ ul {
 
 .article__name {
 	padding: 40px;
-	position: absolute; 
-	top: 0; left: 0; right: 0; bottom: 0;
-	display: block;
-	margin: auto;
-	height: 200px;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 .help__container {
@@ -361,6 +377,14 @@ ul {
 	font-size: 14px;
 	text-align: center;
 	line-height: 1.5em;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+	margin: auto;
+	z-index: 0;
 }
 
 /* CAMPAIGN */
@@ -587,10 +611,18 @@ p.campaign__intro {
 	width: 100vw;
 	height: calc(100vh - 50px);
 	max-height: 600px;
-	display: table;
 	position: relative;
 	background-position: center;
 	background-size: cover;
+}
+
+.main__quote_container {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0; 
+	height: 100%;
+	margin: auto;
+	width: 100%;
+	display: table;
 }
 
 .main__hero h2 {
@@ -601,11 +633,18 @@ p.campaign__intro {
 	padding: 40px 50px;
 	font-size: 35px;
 	color: white;
+	z-index: 3;
+	width: 100%;
+	span {
 
+		max-width: 780px;
+		margin: auto;
+		display: block;
+	}
+	
 	@include grid-media($grid--tablet-up) {
 		font-size: 65px;
 	}
-
 
 	@include grid-media($grid--mobile-up) {
 		font-size: 45px;
