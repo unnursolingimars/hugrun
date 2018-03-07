@@ -425,7 +425,6 @@ ul {
 .campaign__body {
 	@include grid-container;
 
-	max-width: 1180px;
 	margin: auto;
 
 	@include grid-media($grid--tablet-up) {
@@ -482,8 +481,8 @@ ul {
 
 	.imgstyle_0 {
 		@include grid-media($grid--tablet-up) {
-			margin-left: 0;
-			width: 25%;
+			margin-left: -12%;
+			width: 37%;
 			margin-bottom: -100%;
 			img {
 				width: 100% !important;
@@ -531,6 +530,11 @@ ul {
 			@include grid-column(12);
 		}
 	}
+}
+
+.campaign__content {
+	max-width: 865px;
+	margin: auto;
 }
 
 // Fyrsta málsgrein
