@@ -60,6 +60,12 @@ $grid--mobile-up: (
 	media: "(min-width:500px) and (max-width:800px)",
 );
 
+$grid--mobile-only: (
+	columns: 12,
+	gutter: 2rem,
+	media: "(max-width:800px)",
+);
+
 $no-gutter: (
 	columns: 1,
 	gutter: 0,
@@ -246,7 +252,13 @@ ul {
 }
 
 .article__name--wrap {
+	z-index: 20;
 
+	@include grid-media($grid--mobile-only) {
+		position: absolute !important;
+		left: 0; right: 0; 
+		margin: auto;
+	}
 }
 
 .article__text--centered h2, .article__name h2 {
@@ -264,6 +276,7 @@ ul {
 	text-align: center;
 	margin-bottom: 2rem;
 	color: #fff;
+	z-index: 20;
 }
 
 .article__text--centered p {
@@ -274,6 +287,7 @@ ul {
 	font-size: 20px;
 	color: #fff;
 	letter-spacing: 0.05em;
+	z-index: 20;
 }
 
 .blue {
@@ -555,6 +569,11 @@ ul {
 				width: 100% !important;
 			}
 		}
+	}
+
+	em {
+		text-decoration: none;
+		font-style: italic;
 	}
 
 	.imgstyle_1 {
