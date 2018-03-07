@@ -11,13 +11,13 @@ slide_template:
 
 **Hvað er ofsakvíði?**
 
-<div id="attachment_36495" style="width: 160px" class="wp-caption alignright">
+<!-- <div id="attachment_36495" style="width: 160px" class="wp-caption alignright">
   <img class="size-thumbnail wp-image-36495" src="http://gedfraedsla.is/wp-content/uploads/2017/01/unnamed-150x150.jpg" alt="" width="150" height="150" />
   
   <p class="wp-caption-text">
     Sóley Dröfn Davíðsdóttir, Sálfræðingur
   </p>
-</div>
+</div> -->
 
 Það er óþægilegt að verða mjög hræddur eða felmtri sleginn. Flestir hafa reynslu af því enda eru þetta eðlileg viðbrögð þegar við lendum í háska. Sumir fara hins vegar að fá endurtekin og ofsafengin óttaköst af tilefnislausu. Í þessum köstum fyllist fólk skyndilega skelfingu og finnur líkamlegum einkennum svo sem örum hjartslætti,  svima, svita, skjálfta, köfnunartilfinningu, óraunveruleikatilfinningu, örri og grunnri öndun. Oft eru þessi einkenni svo sterk að fólk óttast að eitthvað alvarlegt sé að. Algengt er að fólk telji að það sé að fá hjartaáfall, sturlast eða deyja. Þessi köst ná yfirleitt hámarki á nokkrum mínútum.  Í kjölfar kvíðakasta fara sumir að óttast að fá fleiri kvíðaköst eða afleiðingar þeirra. Þeir fara jafnvel að forðast aðstæður þar sem kvíðaköst gætu gert vart við sig. Þegar svo er nefnist vandinn ofsakvíði, öðru nafni felmtursröskun eða skelfingarkvíði.
 

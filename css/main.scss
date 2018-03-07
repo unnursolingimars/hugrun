@@ -501,6 +501,22 @@ ul {
 	margin: auto;
 }
 
+.listi {
+	@include sans;
+	line-height: 1.1em;
+	li {
+		margin-bottom: 5px;
+	}
+
+	ul {
+		margin-bottom: 10px;
+	}
+
+	strong {
+		font-weight: 700;
+	}
+}
+
 .campaign__title--excerpt {
 	height: 3em;
 

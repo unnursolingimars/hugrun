@@ -13,11 +13,7 @@ slide_template:
 
 Fólk notar áfengi og önnur vímuefni eða lyf af mörgum ástæðum. Talað er um vandamál þegar neysla áfengis, vímuefna og/eða lyfjaneysla er óviðeigandi þ.e. endurtekin notkun til að upplifa vímu, fást við streitu, og/eða til að breyta eða forðast aðstæður sínar. Óviðeigandi notkun getur líka einkennst af því að nota lyfseðilskyld lyf á annan hátt en læknir mælir með. Talað er um fíkn þegar fólk getur ekki lengur haft stjórn á hvötinni til að nota vímuefni eða lyf þrátt fyrir neikvæðar afleiðingar neyslunnar.
 
-&nbsp;
-
 Fíknisjúkdómur er skilgreindur sem langvinnur heilasjúkdómur vegna þess að áfengi og vímuefni breyta heilanum og starfsemi hans og þessar breytingar geta verið langvarandi og leiða til stjórnleysis og breytinga á áhugahvöt og geðslagi.
-
-&nbsp;
 
 Fíknisjúkdómur einkennist af:
 
@@ -25,8 +21,6 @@ Fíknisjúkdómur einkennist af:
   * Fíkn/sterkri löngun
   * Alvarlegum afleiðingum þar neyslan veldur skertri getu til að sinna skyldum sínum, viðvarandi vandamála í samskiptum, dregið er úr félagslegum samskiptum og ástundun áhugamála, auk þess sem neyslu er haldið áfram þrátt fyrir að hún valdi truflun á heilsu, bæði á líkama og sál.
   * Erfiðleikum með að sjá veruleg vandamál í hegðun sinni og samskiptum við aðra
-
-&nbsp;
 
 Líkt og í öðrum langvinnum sjúkdómum, skiptast gjarnan á tímabil bata og falla í fíknsjúkdómnum. Án meðferðar eða skuldbindingar í bataferli, er fíknisjúkdómurinn stig versnandi og getur leitt til fötlunar eða ótímabærs dauða.
 

@@ -11,13 +11,13 @@ slide_template:
   - default
 ---
 
-<div id="attachment_36975" style="width: 229px" class="wp-caption alignright">
+<!-- <div id="attachment_36975" style="width: 229px" class="wp-caption alignright">
   <img class="wp-image-36975 size-medium" src="http://gedfraedsla.is/wp-content/uploads/2017/01/liljasif-219x300.jpg" width="219" height="300" srcset="http://gedfraedsla.is/wp-content/uploads/2017/01/liljasif-219x300.jpg 219w, http://gedfraedsla.is/wp-content/uploads/2017/01/liljasif.jpg 702w" sizes="(max-width: 219px) 100vw, 219px" />
   
   <p class="wp-caption-text">
     Lilja Sif Þorsteinsdóttir, sálfræðingur
   </p>
-</div>
+</div> -->
 
 Reynsla okkar í lífinu ræður miklu um það hvernig við bregðumst við aðstæðum okkar. Til að hjálpa okkur að skilja heiminn búum við okkur til ákveðin handrit sem hjálpa til við að spá fyrir um hvað gerist í lífi okkar og hvernig best er að bregðast við þeim aðstæðum.
 

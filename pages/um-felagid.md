@@ -17,34 +17,23 @@ Hugrún var stofnað vorið 2016 af nemendum í hjúkrunarfræði, læknisfræð
 
 Stjórn Hugrúnar er skipuð tveimur fulltrúum úr hverju aðildarfélagi auk formanns, fræðslustjóra og fjáröflunarstjóra sem kosnir eru á aðalfundi. Varaformaður, gjaldkeri og ritari (í ár eru ritararnir tveir) eru kosnir á fyrsta stjórnarfundi félagsins. Stjórn Hugrúnar sér um daglega starfsemi félagsins og skipar nefndir og ritstjórn á vegum þess.
 
-<div class="standard-arrow list-divider bullet-top">
-  <ul>
-    <li>
-      Formaður: Elísabet Brynjarsdóttir
-    </li>
-    <li>
-      Varaformaður og fulltrúi læknanema: Ágúst Ingi Guðnason
-    </li>
-    <li>
-      Gjaldkeri og meðstjórnandi : Kristín Fjóla Reynisdóttir
-    </li>
-    <li>
-      Ritari og fræðslustýra : Jóhanna Andrésdóttir
-    </li>
-    <li>
-      Markaðsstjóri: Sonja Sigríður Jónsdóttir
-    </li>
-    <li>
-      Fulltrúi hjúkrunarfræðinema: Hafrós Lind Ásdísardóttir
-    </li>
-    <li>
-      Fulltrúi cand psych nema í sálfræði : Sólveig Anna Daníelsdóttir
-    </li>
-    <li>
-      Fulltrúi grunnnema í sálfræði: Kristín Hulda Gísladóttir
-    </li>
-  </ul>
-</div>
+Formaður: Elísabet Brynjarsdóttir
+
+Varaformaður og fulltrúi læknanema: Ágúst Ingi Guðnason
+
+Gjaldkeri og meðstjórnandi : Kristín Fjóla Reynisdóttir
+
+Ritari og fræðslustýra : Jóhanna Andrésdóttir
+
+Markaðsstjóri: Sonja Sigríður Jónsdóttir
+
+Fulltrúi hjúkrunarfræðinema: Hafrós Lind Ásdísardóttir
+
+Fulltrúi cand psych nema í sálfræði : Sólveig Anna Daníelsdóttir
+
+Fulltrúi grunnnema í sálfræði: Kristín Hulda Gísladóttir
+
 
 Meðlimir Hugrúnar hafa það sameiginlegt að vera mjög annt um að upplýsa ungt fólk um mikilvægi geðheilbrigðis
+
 Elísabet Brynjarsdóttir er starfandi formaður Hugrúnar

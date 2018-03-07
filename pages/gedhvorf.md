@@ -15,13 +15,10 @@ Geðhvörf eru geðsjúkdómur sem einkennist af óvenjumiklum sveiflum í líð
 
 Á milli veikindalota hafa þeir sem eru með geðhvörf oft lítil eða engin sjúkdómseinkenni og ef vel gengur, geta þeir jafnvel verið einkennalausir langtímum saman. Þunglyndiseinkenni eru yfirleitt þau einkenni sem eru mest áberandi. Flestir með geðhvörf þurfa að taka lyf til að viðhalda góðum bata.
 
-&nbsp;
-
 Orsök geðhvarfa eru ekki þekkt með vissu en líklegt er að eins og með flesta geðsjúkdóma sé um að ræða samspil erfða og umhverfis. Geðhvörf eru sá geðsjúkdómur sem hefur hvað sterkastan erfðaþátt af öllum geðsjúdómum (þú erfir genin sem bera sjúkdóminn), en vissulega hafa umhverfisþættir líka sitt að segja. Hlutfall erfða í áhættunni fyrir að veikjast af sjúkdómnum eru 60-80%.
 
 Þrátt fyrir að geðhvörf séu alvarlegur geðsjúdómur sem hefur áhrif á heilsu og líf viðkomandi farnast einstaklingum með sjúkdóminn yfirleitt vel, sérstaklega ef þeir taka ábyrgð á veikindum sínum og leitar sér aðstoðar, fræðast um sjúkdóminn og þá þætti sem hafa áhrif á gang hans. Þar skiptir reglusemi, góður svefn og heilbrigt líferni miklu máli. Almennt er talið að lyfjameðferð hafi jákvæð áhrif á gang sjúkdómsins, bæði í veikindalotum og milli lota til að viðhalda bata.
 
-&nbsp;
 
 **Eftirfarandi eru algeng einkenni sem geta komið fram í veikindalotum:**
 

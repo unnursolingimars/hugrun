@@ -3,7 +3,7 @@ layout: default
 ---
 {% include top_bar.html %}
 
-<section class="hero hero__container--campaign" style="max-height: 400px; background-image: url('{{ page.cover_photo }}')">
+<section class="hero hero__container--campaign rotate_colors" style="max-height: 400px; background-color: #151A41; background-image: url('{{ page.cover_photo }}')">
 	<h1 class="article__heading">
 		{{ page.title }}
 	</h1>
@@ -19,13 +19,18 @@ layout: default
 	</div>
 </section>
 
-<section class="hero hero__container--campaign" style="background-image: url('{{ page.bottom_photo }}')">
-
-</section>
 <script>
 	$(".campaign__body img").each(function(i, el) { 
 		console.log(i, el);
 			var styleIndex = i % 3;
 			$(el).parent().addClass("imgstyle_"+styleIndex);
 		});
+
+	var colors = ["#151A41","#D1503B","E5A985","#737373"];
+
+
+	$(".rotate_colors").css("background-color", colors[Math.floor(Math.random()*colors.length)]);
 </script>
+
+
+{% include contact_footer.html %}

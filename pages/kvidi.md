@@ -13,14 +13,14 @@ slide_template:
 
 **Hvað er kvíði?**
 
-<div id="attachment_36495" style="width: 160px" class="wp-caption alignright">
+<!-- <div id="attachment_36495" style="width: 160px" class="wp-caption alignright">
   <img class="wp-image-36495 size-thumbnail" src="http://gedfraedsla.is/wp-content/uploads/2017/01/unnamed-150x150.jpg" width="150" height="150" />
   
   <p class="wp-caption-text">
     Sóley Dröfn Davíðsdóttir, Sálfræðingur
   </p>
 </div>
-
+ -->
 Kvíði er lífeðlislegt viðbragð sem virkjast þegar manneskja stendur frammi fyrir mögulegri ógn við velferð hennar eða afkomu. Það er nóg að manneskja dragi þá ályktun að henni sé ógnað með einhverjum hætti til að viðbragðið kvikni. Ógnin þarf því ekki að vera raunveruleg og viðbragðið er alltaf það sama. Þetta viðbragð hefur stuðlað að afkomu mannsins í áranna rás en án þess er hætt við að fólk hefði í auknum mæli dottið fram af björgum, lokast inni eða orðið villidýrum að bráð. Kvíðakerfi mannsins er það öflugt að það ræsist nær ósjálfrátt í vissum aðstæðum: Andspænis villidýrum, skordýrum, slöngum, reiðum andlitum, lokuðum rýmum eða háum hæðum.
 
 Mönnum er óttinn við þessar aðstæður í blóð borinn og þarf litla reynslu af ofangreindu til að fælni myndist. Það er hins vegar mun erfiðara að þróa með sér fælni fyrir ljósastaurum eða pottablómum, þótt dæmi séu til um fælni að því tagi! Okkur er kvíðinn eðlislægur og bætir hann beinlínis frammistöðu okkar á ýmsum sviðum, til dæmis í íþróttum og á prófum. Kvíðaviðbragðið fær okkur einnig til að bregðast hratt og vel við þegar við erum í hættu stödd, til dæmis þegar bíll nálgast okkur á ógnarhraða. Kvíðinn segir okkur stundum hvað við eigum að gera, til dæmis keyra varlega í hálku. Hann getur aftrað okkur frá því að gera hluti sem við gætum síðar séð eftir og er nátengdur samvisku. Það er því hvorki eðlilegt né æskilegt ástand að vera allsendis ókvíðinn. Hins vegar er það skiljanlegt að þeir sem eru illa haldnir af kvíða óski þess  að verða kvíðalausir!

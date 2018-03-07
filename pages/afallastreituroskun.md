@@ -10,14 +10,15 @@ guid: http://gedfraedsla.is/?page_id=36511
 slide_template:
   - default
 ---
-<div id="attachment_36495" style="width: 210px" class="wp-caption alignright">
+
+<!-- <div id="attachment_36495" style="width: 210px" class="wp-caption alignright">
   <img class="size-medium wp-image-36495" src="http://gedfraedsla.is/wp-content/uploads/2017/01/unnamed-200x300.jpg" alt="" width="200" height="300" srcset="http://gedfraedsla.is/wp-content/uploads/2017/01/unnamed-200x300.jpg 200w, http://gedfraedsla.is/wp-content/uploads/2017/01/unnamed.jpg 427w" sizes="(max-width: 200px) 100vw, 200px" />
   
   <p class="wp-caption-text">
     Sóley Dröfn Davíðsdóttir, Sálfræðingur
   </p>
 </div>
-
+ -->
 **Áfallastreituröskun**
 
 Eðlilegt er að áföll hafi áhrif á fólk og að það taki tíma að jafna sig. Áfallastreituröskun er því aðeins greind jafni fólk sig ekki með tíð og tíma. Hér að neðan er áfallastreitustreituröskun lýst en fólk getur haft gagn af því að vinna úr áföllum sem það hefur ekki fyllilega komist yfir, þótt það uppfylli ekki viðmið um áfallastreituröskun. Áfallastreituröskun er nokkuð algeng og fær um 10% fólks hana einhvern tímann á ævinni.

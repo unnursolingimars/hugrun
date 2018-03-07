@@ -11,11 +11,11 @@ slide_template:
   - default
 ---
 
-<div id="attachment_36495" style="width: 210px" class="wp-caption alignright">
+<!-- <div id="attachment_36495" style="width: 210px" class="wp-caption alignright">
   <p class="wp-caption-text">
     Sóley Dröfn Davíðsdóttir, Sálfræðingur
   </p>
-</div>
+</div> -->
 
 **Þráhyggja og árátta**
 
