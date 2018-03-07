@@ -1,3 +1,4 @@
 ---
 layout: campaign
+campaign: true
 ---
