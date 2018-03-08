@@ -6,7 +6,7 @@ author: Anna Guðrún Guðmundsdóttir
 guid: http://gedfraedsla.is/?page_id=36972
 layout: article
 page_bottom_photo: ""
-permalink: /personuleikaraskanir
+permalink: /personuleikaraskanir/
 slide_template:
   - default
 ---

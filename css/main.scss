@@ -265,7 +265,7 @@ ul {
 }
 
 .article__name--wrap {
-	z-index: 20;
+	z-index: 1;
 
 	@include grid-media($grid--mobile-only) {
 		position: absolute !important;
@@ -326,6 +326,7 @@ ul {
 	display: block;
 	width: 120px;
 	margin: 40px auto 0 auto;
+	z-index: 2;
 }
 
 .campaign__header {

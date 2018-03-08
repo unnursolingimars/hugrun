@@ -4,7 +4,7 @@ title: Fíknisjúkdómar
 date: 2017-01-12T14:01:05+00:00
 author: Sigþór Ási Þórðarson
 layout: article
-permalink: /fiknisjukdomar
+permalink: /fiknisjukdomar/
 page_bottom_photo: ""
 guid: http://gedfraedsla.is/?page_id=36753
 slide_template:

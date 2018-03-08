@@ -4,7 +4,7 @@ title: Áfallastreituröskun
 date: 2017-01-11T20:36:53+00:00
 author: Þorsteinn Gauti Gunnarsson
 layout: article
-permalink: /afallastreituroskun
+permalink: /afallastreituroskun/
 page_bottom_photo: ""
 guid: http://gedfraedsla.is/?page_id=36511
 slide_template:

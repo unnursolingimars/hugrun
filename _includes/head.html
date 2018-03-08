@@ -6,17 +6,14 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-{% if page.cover_photo %}
-  <meta property="og:url"                content="https://gedfraedsla.is{{ page.permalink }}" />
-  <meta property="og:type"               content="article" />
-  <meta property="og:title"              content="{{ page.subtitle }}" />
-  <meta property="og:description"        content="{{ page.intro }}" />
-  <meta property="og:image"              content="https://gedfraedsla.is{{ page.cover_photo }}" />
-{% endif %}
-
-
 {% if page.campaign %}
   <meta property="og:url"                content="https://gedfraedsla.is/hugud" />
+  <meta property="og:type"               content="article" />
+  <meta property="og:title"              content="Huguð" />
+  <meta property="og:description"        content="Sjö einstaklingar deila upplifun sinni af ólíkum geðsjúkdómum og geðröskunum. Hugum að geðheilbrigði. Verum #Huguð." />
+  <meta property="og:image"              content="https://gedfraedsla.is/img/uploads/hugud_campaign.jpg" />
+{% else %}
+  <meta property="og:url"                content="https://gedfraedsla.is/" />
   <meta property="og:type"               content="article" />
   <meta property="og:title"              content="Huguð" />
   <meta property="og:description"        content="Sjö einstaklingar deila upplifun sinni af ólíkum geðsjúkdómum og geðröskunum. Hugum að geðheilbrigði. Verum #Huguð." />

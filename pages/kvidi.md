@@ -5,7 +5,7 @@ date: 2017-01-11T20:25:11+00:00
 author: Þorsteinn Gauti Gunnarsson
 layout: article
 guid: http://gedfraedsla.is/?page_id=36493
-permalink: /kvidi
+permalink: /kvidi/
 page_bottom_photo: ""
 slide_template:
   - default

@@ -5,7 +5,7 @@ date: 2017-01-12T22:48:23+00:00
 author: Þeódóra A. Thoroddsen
 layout: article
 page_bottom_photo: ""
-permalink: /thunglyndi
+permalink: /thunglyndi/
 slide_template:
   - default
 ---

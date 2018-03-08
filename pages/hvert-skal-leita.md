@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Hvert get ég leitað?
-permalink: /hvert-get-eg-leitad
+permalink: /hvert-get-eg-leitad/
 cover_photo: /img/uploads/screen shot 2018-03-07 at 19.47.36.png
 page_bottom_photo: /img/uploads/screen shot 2018-03-07 at 19.47.36.png
 ---

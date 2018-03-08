@@ -6,7 +6,7 @@ author: Þorsteinn Gauti Gunnarsson
 guid: http://gedfraedsla.is/?page_id=36516
 layout: article
 page_bottom_photo: ""
-permalink: /thrahyggja
+permalink: /thrahyggja/
 slide_template:
   - default
 ---

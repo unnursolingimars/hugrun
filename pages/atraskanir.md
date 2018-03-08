@@ -4,7 +4,7 @@ title: Átraskanir
 date: 2017-01-11T16:47:48+00:00
 author: Aðall Hugrúnar
 layout: article
-permalink: /atraskanir
+permalink: /atraskanir/
 page_bottom_photo: ""
 guid: http://gedfraedsla.is/?page_id=36461
 slide_template:

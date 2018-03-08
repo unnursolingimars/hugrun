@@ -6,7 +6,7 @@ author: Þórhildur Erla Pálsdóttir
 layout: article
 guid: http://gedfraedsla.is/?page_id=36475
 page_bottom_photo: ""
-permalink: /gedklofi
+permalink: /gedklofi/
 slide_template:
   - default
 ---

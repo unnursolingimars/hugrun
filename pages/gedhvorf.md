@@ -4,7 +4,7 @@ title: Geðhvörf
 date: 2017-01-13T17:29:29+00:00
 author: Aðall Hugrúnar
 layout: article
-permalink: /gedhvorf
+permalink: /gedhvorf/
 page_bottom_photo: ""
 guid: http://gedfraedsla.is/?page_id=36948
 slide_template:
