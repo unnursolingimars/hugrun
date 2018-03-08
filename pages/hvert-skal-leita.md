@@ -3,9 +3,9 @@ layout: article
 title: Hvert get ég leitað?
 permalink: /hvert-get-eg-leitad/
 ---
-ÚRRÆÐI
+# ÚRRÆÐI
 
-Hvert skal leita?
+## Hvert skal leita?
 
 1. Til einhvers sem þú treystir. Fyrsta skrefið er yfirleitt að segja einhverjum sem þú treystir frá, hvort sem það er vinur, fjölskyldumeðlimur, námsráðgjafi eða sálfræðingur. 
 2. Til heilsugæslu í þínu hverfi. Heilsugæsla er yfirleitt fyrsti viðkomustaður allra þeirra sem þurfa á meðferð að halda vegna andlegra eða líkamlegra kvilla. Heimilislæknir getur hafið meðferð telji hann slíkt skynsamlegt eða vísað máli þínu í réttar hendur.
@@ -16,8 +16,6 @@ Hvert skal leita?
 Það er aldrei of snemmt eða seint að leita sér hjálpar, en því fyrr sem það er gert, því betra.
 
 ## Heilsugæsla
-
-## 
 
 Á heilsugæslustöðvum fer fram fyrsta lyfjameðferð og eftirfylgd hennar hjá heimilislæknum. Þú þarft ekki að fara til þíns heimilislæknis heldur getur pantað tíma hjá öðrum læknum, óháð stöð. Heimilislæknar hafa mikla þekkingu á andlegum vandamálum og er stór hluti sérnáms þeirra á því sviði.
 
