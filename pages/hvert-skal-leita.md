@@ -2,23 +2,16 @@
 layout: article
 title: Hvert get ég leitað?
 permalink: /hvert-get-eg-leitad/
-cover_photo: /img/uploads/screen shot 2018-03-07 at 19.47.36.png
-page_bottom_photo: /img/uploads/screen shot 2018-03-07 at 19.47.36.png
 ---
-
 ÚRRÆÐI
 
 Hvert skal leita?
 
-1) Til einhvers sem þú treystir. Fyrsta skrefið er yfirleitt að segja einhverjum sem þú treystir frá, hvort sem það er vinur, fjölskyldumeðlimur, námsráðgjafi eða sálfræðingur. 
-
-2) Til heilsugæslu í þínu hverfi. Heilsugæsla er yfirleitt fyrsti viðkomustaður allra þeirra sem þurfa á meðferð að halda vegna andlegra eða líkamlegra kvilla. Heimilislæknir getur hafið meðferð telji hann slíkt skynsamlegt eða vísað máli þínu í réttar hendur.
-
-3) Á einkastofur sálfræðinga. Á heimasíðu Sálfræðingafélags Íslands www.sal.is er leitarvél sem nota má til að finna sálfræðinga sem gætu hentað ýmsum sértækum aðstæðum.
-
-4) Á einkastofur geðlækna. Fjöldi geðlækna veita lyfja- og sálfræðimeðferð á einkastofum sínum.
-
-5) Til bráðamóttöku geðsviðs á Landspítala. Þar starfa sálfræðingar, geðlæknar og hjúkrunarfræðingar sem eru sérmenntaðir í meðferð geðrænna vandamála. Bráðamóttaka er opin frá 12:00-19:00 á virkum dögum og frá 12:00-17:00 um helgar. Símanúmer bráðamóttöku geðsviðs er 543 4050.
+1. Til einhvers sem þú treystir. Fyrsta skrefið er yfirleitt að segja einhverjum sem þú treystir frá, hvort sem það er vinur, fjölskyldumeðlimur, námsráðgjafi eða sálfræðingur. 
+2. Til heilsugæslu í þínu hverfi. Heilsugæsla er yfirleitt fyrsti viðkomustaður allra þeirra sem þurfa á meðferð að halda vegna andlegra eða líkamlegra kvilla. Heimilislæknir getur hafið meðferð telji hann slíkt skynsamlegt eða vísað máli þínu í réttar hendur.
+3. Á einkastofur sálfræðinga. Á heimasíðu Sálfræðingafélags Íslands www.sal.is er leitarvél sem nota má til að finna sálfræðinga sem gætu hentað ýmsum sértækum aðstæðum.
+4. Á einkastofur geðlækna. Fjöldi geðlækna veita lyfja- og sálfræðimeðferð á einkastofum sínum.
+5. Til bráðamóttöku geðsviðs á Landspítala. Þar starfa sálfræðingar, geðlæknar og hjúkrunarfræðingar sem eru sérmenntaðir í meðferð geðrænna vandamála. Bráðamóttaka er opin frá 12:00-19:00 á virkum dögum og frá 12:00-17:00 um helgar. Símanúmer bráðamóttöku geðsviðs er 543 4050.
 
 Það er aldrei of snemmt eða seint að leita sér hjálpar, en því fyrr sem það er gert, því betra.
 
@@ -30,21 +23,17 @@ Hvert skal leita?
 
 Heimilislæknar gera tilvísanir til:
 
-Geðlækna
-
-Sálfræðinga
-
-VIRK endurhæfingu
-
-Heimahjúkrunar
-
-Og margt fleira
+* Geðlækna
+* Sálfræðinga
+* VIRK endurhæfingu
+* Heimahjúkrunar
+* Og margt fleira
 
 Algengt er að finna sig ekki hjá fyrsta meðferðaraðilanum sem maður leitar til. Það er ekkert mál að prófa aðra, og margir sem gera það. 
 
 Geðheilsustöð Breiðholts veitir geðþjónustu heim til þeirra sem búa í efri byggðum Reykjavíkur. Á heilsugæslustöðvum er hægt að koma samdægurs og hitt hjúkrunarfræðing sem getur einnig komið málunum í réttan farveg. Hægt er að nálgast þjónustu sálfræðinga fyrir 18 ára og yngri á sumum stöðvum, og verið er að vinna í því að innleiða gjaldfrjálsa sálfræðiþjónustu fyrir þá sem eru eldri en 18 ára. Heilsugæslustöðvar hafa sömuleiðis verið að bjóða upp á HAM hópnámskeið, sem getur verið gott fyrsta skref. 
 
-## Félagsþjónusta 
+## Félagsþjónusta
 
 Sveitarfélögum ber að veita félagslega aðstoð og fjárhagsaðstoð ásamt úrræða vegna húsnæðisvanda, fjárhagsvanda og stuðning vegna álags í uppeldishlutverki.
 
@@ -60,7 +49,7 @@ Tölum saman er fjarþjónusta Kvíðameðferðarstöðvarinnar þar sem hægt e
 
 **Rauði Kross Íslands**
 
-Rauði Krossinn er með hjálparsímann 1717, símtalið er gjaldfrjálst. Einnig er boðið upp á nafnlaust netspjall hjá Rauða Krossinum og er það opið allan sólarhringinn. Þá er einnig í boði að fá heimsóknarvin sem sinnir innliti vegna félagslegrar einangrunar. Rauði Krossinn er með athvörf fyrir geðfatlaða einstaklinga víða um land og sér einnig um Frú Ragnheiði. Starfsfólk Frú Ragnheiðar hefur sérútbúin bíl til umráða þar sem fólk með fíkniávana getur nálgast hreinar sprautunálar og fatnað. 
+Rauði Krossinn er með hjálparsímann 1717, símtalið er gjaldfrjálst. Einnig er boðið upp á nafnlaust [netspjall](https://www.raudikrossinn.is/hvad-gerum-vid/hjalparsiminn-1717/hvad-gerum-vid-3) hjá Rauða Krossinum og er það opið allan sólarhringinn. Þá er einnig í boði að fá heimsóknarvin sem sinnir innliti vegna félagslegrar einangrunar. Rauði Krossinn er með athvörf fyrir geðfatlaða einstaklinga víða um land og sér einnig um Frú Ragnheiði. Starfsfólk Frú Ragnheiðar hefur sérútbúin bíl til umráða þar sem fólk með fíkniávana getur nálgast hreinar sprautunálar og fatnað. 
 
 **Geðhjálp – samtök um bættan hag fólks með geðraskanir og geðfötlun** 
 
@@ -72,11 +61,11 @@ Samtökin Hugarafl standa fyrir hópastarfi og nýliðakynningum ásamt aðstand
 
 **Klúbburinn Geysir**
 
-Starf Geysis gengur út á að sporna gegn einangrun og vanvirkni og einnig að aðstoða fólk við að komast í reynsluráðningu. 
+Starf [Geysis](http://www.kgeysir.is/) gengur út á að sporna gegn einangrun og vanvirkni og einnig að aðstoða fólk við að komast í reynsluráðningu. 
 
 **Hlutverkasetur – Félagsmiðstöð, virkni og valdeflandi nálgun**
 
-Hlutverkasetrið stendur fyrir hópastarfi til þess að sporna við félagslegri einangrun og vanvirkni.
+[Hlutverkasetrið](http://www.hlutverkasetur.is/) stendur fyrir hópastarfi til þess að sporna við félagslegri einangrun og vanvirkni.
 
 **Stígamót**
 
@@ -128,7 +117,7 @@ Missir.is: upplýsingar um missi.
 
 Býður uppá parameðferð ásamt ýmsum námskeiðum um meðvirkni.
 
-**Mæðrastyrksnefnd**
+[**Mæðrastyrksnefnd**](http://www.maedur.is/#!opnun/ckuo)
 
 Matar og fatagjafir fyrir fjölskyldur og einstaklinga.
 
@@ -176,19 +165,13 @@ Aðeins fyrir þá sem eiga börn. Í boði er til dæmis inneignarkort í matv�
 
 ## Húsnæðisleysi
 
-Konukot – gistiskýli fyrir konur rekið af Rauða Krossinum
-
-Gistiskýlið Lindargötu – gistiskýli heimilislausra karla, Reykvíkingar hafa forgang
-
-Gistiheimili á almennum markaði – mörg hver bjóða lengri leigu sér í lagi á veturna
-
-Leiguherbergi.is – ódýr leiguherbergi, leigir einstaklingum sem eru t.d. í neyslu
-
-Leigulistinn / Bland / Facebook Til leigu grúppa / Búseti leigufélag
-
-Örorkubandalagið er með leiguíbúðir gegnum félag sitt, Brynja, fyrir öryrkja
-
-Leiguvernd eða félagsþjónusta geta aðstoðað þá sem eiga ekki fyrir fyrirframgreiddri leigu og tryggingu.
+* Konukot – gistiskýli fyrir konur rekið af Rauða Krossinum
+* Gistiskýlið Lindargötu – gistiskýli heimilislausra karla, Reykvíkingar hafa forgang
+* Gistiheimili á almennum markaði – mörg hver bjóða lengri leigu sér í lagi á veturna
+* Leiguherbergi.is – ódýr leiguherbergi, leigir einstaklingum sem eru t.d. í neyslu
+* Leigulistinn / Bland / Facebook Til leigu grúppa / Búseti leigufélag
+* Örorkubandalagið er með leiguíbúðir gegnum félag sitt, Brynja, fyrir öryrkja
+* Leiguvernd eða félagsþjónusta geta aðstoðað þá sem eiga ekki fyrir fyrirframgreiddri leigu og tryggingu.
 
 **Lagaleg ráðgjöf**
 
@@ -196,7 +179,7 @@ Lögmannafélag Íslands veitir ókeypis lögfræðiráðgjöf
 
 Orator félag laganema veitir einnig ókeypis lögfræðiráðgjöf
 
-Kvennaráðgjöfin veitir félagslega og lagalega ráðgjöf 
+[Kvennaráðgjöfin](http://kvennaradgjofin.is/kvennradgjofin.html) veitir félagslega og lagalega ráðgjöf 
 
 **Umboðsmaður skuldara**
 
