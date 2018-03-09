@@ -3,7 +3,7 @@ id: 36701
 title: Um félagið
 date: 2017-01-12T09:49:26+00:00
 author: Aðall Hugrúnar
-layout: article
+layout: um-felagid
 permalink: /um-felagid/
 guid: http://gedfraedsla.is/?page_id=36701
 
