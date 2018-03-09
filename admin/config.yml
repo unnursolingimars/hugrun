@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "um-felagid"
     label: "Um félagið"
-    folder: "pages"
+    folder: "um-felagid"
     create: false
     slug: "{{slug}}"
     fields:
