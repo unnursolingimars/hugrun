@@ -45,7 +45,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       - {label: "Um félagið", name: "about", widget: "markdown"}
-      - {label: "Gerast meðlimur", name: "join", widget: "markdown"}
+      - {label: "Gerast meðlimur", name: "join_us", widget: "markdown"}
       - {label: "Stjórn", name: "stjorn", widget: "list", fields: [
           {label: "Nafn", name: "nafn", widget: "text"},
           {label: "Titill", name: "titill", widget: "text"},
