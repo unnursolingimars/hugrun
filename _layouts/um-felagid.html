@@ -23,7 +23,7 @@ layout: default
   </div>
 
   <div class="about__cta">
-    <div class="about__column">
+    <div class="about__column" name="boka">
       <section class="main__box main__box--beige">
         <h3>BÓKA<br>FYRIR-<br>LESTUR</h3>
         <span class="main__box--text">
@@ -40,6 +40,7 @@ layout: default
       </section>
     </div>
     <div class="about__column">
+      <a name="styrkja"></a><a name="boka"></a>
       <section class="main__box main__box--yellow">
         <h3>STYRKJA<br><div style="letter-spacing:-0.10em">HUGRÚNU</div></h3>
         <span class="main__box--text">
@@ -58,15 +59,17 @@ layout: default
   </div>
 
   <div class="about__text">
+      <a name="medlimir"></a>
       <div class="text__heading">
         Gerast meðlimur
       </div>
   
-      <div class="text__content">    
-        {{ page.join_us }}
+      <div class="text__content" name="">    
+        {{ page.join_us | markdownify }}
       </div>
   </div>
 
+<!--
 
   <div class="about__staff">
     <h2>Stjórn félagsins</h2>
@@ -99,6 +102,7 @@ layout: default
 
   {{ content }}
 
+
   <footer class="about__contact">
     <form method="POST" action="https://formspree.io/gedfraedsla@gedfraedsla.is">
       <input type="text" name="name" placeholder="NAFN">
@@ -110,3 +114,6 @@ layout: default
   </div>
 
 </div>
+-->
+
+{% include contact_footer.html %}
