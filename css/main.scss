@@ -1128,7 +1128,8 @@ p.campaign__intro {
 }
 
 .about__column {
-  @include grid-column(12);
+
+  margin: auto;
 
   @include grid-media($grid--mobile-only) {
     margin: 0;
@@ -1140,6 +1141,8 @@ p.campaign__intro {
   }
 
   .main__box {
+    padding: 0; 
+    width: auto; 
     @include grid-media($grid--mobile-only) {
 
     }
@@ -1161,11 +1164,19 @@ p.campaign__intro {
 }
 
 .about__quote {
-  @include serif;
+  @include italic;
   color: #fff;
   text-align: center;
   padding: 80px;
   background: $beige;
+  font-size: 35px;
+  margin: 80px 0;
+  @include grid-media($grid--tablet-up) {
+    font-size: 65px;
+  }
+  span {
+    @include center-container;
+  }
 }
 
 .about__text {
