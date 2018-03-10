@@ -83,8 +83,10 @@ html {
 }
 
 body {
-  
+  @include sans;
+  color: $darkblue;
 }
+
 
 .main__body {
   background: $light-gray;
@@ -1048,6 +1050,107 @@ p.campaign__intro {
 
 /* ABOUT PAGE */
 
+@mixin center-container {
+  display: block;
+  max-width: 940px;
+  margin: auto;
+}
+
+.about__header {
+  display: table;
+  h1 {
+    @include italic;
+    width: 100vw;
+    font-weight: 300;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 35px;
+
+    @include grid-media($grid--tablet-up) {
+      font-size: 65px;
+    }
+
+  }
+    height: 300px;
+  @include grid-media($grid--tablet-up) {
+    height: 500px;
+  }
+  background: $gray;
+}
+
+.about__wrapper {
+  span {
+    display: block;
+  }
+
+  .text__heading {
+    @include serif;
+
+    @include grid-column(12);
+  
+      color: $red;
+      font-size: 40px;
+      font-weight: 300;
+      margin-top: 30px;
+
+    @include grid-media($grid--tablet-up) {
+      @include grid-column(4);
+    }
+  }
+  .text__content {
+    @include grid-column(12);
+
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500;
+    color: $darkblue;
+    font-family: "Basis Grotesque";
+   
+    @include grid-media($grid--tablet-up) {
+      @include grid-column(8);
+    }
+    margin-top: 2rem !important;
+  }
+}
+
+.about__text {
+  @include center-container;
+  @include grid-container;
+  margin-top: 70px;
+}
+
+
+.about__cta {
+  @include grid-container;
+}
+
+.about__column {
+  @include grid-column(12);
+
+  @include grid-media($grid--mobile-only) {
+    margin: 0;
+    margin: auto;
+  }
+
+  @include grid-media($grid--tablet-up) {
+    @include grid-column(6);
+  }
+
+  .main__box {
+    @include grid-media($grid--mobile-only) {
+
+    }
+    h3 {
+
+    }
+    p {
+      line-height: 1.5em;
+    }
+  }
+}
 
 .about__header {
 
@@ -1058,9 +1161,13 @@ p.campaign__intro {
 }
 
 .about__quote {
-
+  @include serif;
+  color: #fff;
+  text-align: center;
+  padding: 80px;
+  background: $beige;
 }
 
 .about__text {
-  
+
 }

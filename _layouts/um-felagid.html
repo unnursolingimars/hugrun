@@ -1,62 +1,111 @@
 ---
 layout: default
 ---
-
-<div class="about__header">
-  <h1>{{ title }}</h1>
-</div>
+{% include top_bar.html %}
 
 <div class="about__wrapper">
-  <section class="about__text">
-    {{ page.about }}
-  </section>
-</div>
+  <div class="about__header">
+    <h1>UM HUGRÚNU</h1>
+  </div>
 
-<div class="about__quote">
-  <span>„Meðlimir Hugrúnar eiga það sameiginlegt að vera mjög annt um að upplýsa ungt fólk um mikilvægi geðheilbrigðis“</span>
-</div>
+  <div class="about__text">
+      <div class="text__heading">
+        Um félagið
+      </div>
+  
+      <div class="text__content">    
+        {{ page.about }}
+      </div>
+  </div>
 
-<div class="about__wrapper">
-  <section class="about__text">
-    {{ page.join_us }}
-  </section>
-</div>
+  <div class="about__quote">
+    <span>„Meðlimir Hugrúnar eiga það sameiginlegt að vera mjög annt um að upplýsa ungt fólk um mikilvægi geðheilbrigðis“</span>
+  </div>
 
-<div class="about__staff">
-  <h2>Stjórn félagsins</h2>
-  <ul>
-    {% for staff in page.stjorn %}
-      <li>
-        <div class="staff__image" style="background-image: url('{{ staff.mynd }}');"></div>
-        <h3 class="staff__name">{{ staff.nafn }}</h3>
-        <span class="staff__role">{{ staff.titill }}</span>
-        <span class="staff__caption">{{ staff.caption }}</span>
-        <a href="mailto:{{ staff.email }}">{{ staff.email }}</a>
-      </li> 
-    {% endfor %}
-  </ul>
-</div>
-<div class="about__staff">
-  <h2>Ritstjórn</h2>
-  <ul>
-    {% for staff in page.ritstjorn %}
-      <li>
-        <div class="staff__image" style="background-image: url('{{ staff.mynd }}');"></div>
-        <h3 class="staff__name">{{ staff.nafn }}</h3>
-        <span class="staff__role">{{ staff.titill }}</span>
-        <span class="staff__caption">{{ staff.caption }}</span>
-        <a href="mailto:{{ staff.email }}">{{ staff.email }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+  <div class="about__cta">
+    <div class="about__column">
+      <section class="main__box main__box--beige">
+        <h3>BÓKA<br>FYRIR-<br>LESTUR</h3>
+        <span class="main__box--text">
+          <p>
+            Einfalt er að bóka fyrirlestur um geðheilbrigði og geðsjúkdóma frá fyrirlesurum Hugrúnar. Senda þarf tölvupóst á <a href="mailto:gedfraedsla@gedfraedsla.is">gedfraedsla@gedfraedsla.is</a> eða hafa samband á <a href="https://www.facebook.com/gedfraedsla/">Facebook síðu Hugrúnar</a>. 
+          </p>
+          <p>
+            Hugrún veitir fræðslu fyrir ungmenni. Við höfum haldið fyrirlestra í grunn- og framhaldsskólum. Fræðslan okkar fjallar um geðheilbrigði, geðsjúkdóma og úrræði. Ef það eru sérstakar óskir, vinsamlegst takið það fram.  
+          </p>
+          <p>
+            Allir sem koma að starfsemi Hugrúnar vinna sjálfboðavinnu og reynum við eftir fremsta magni að veita gjaldfrjálsa fræðslu. 
+          </p>
+        </span>
+      </section>
+    </div>
+    <div class="about__column">
+      <section class="main__box main__box--yellow">
+        <h3>STYRKJA<br><div style="letter-spacing:-0.10em">HUGRÚNU</div></h3>
+        <span class="main__box--text">
+          <p>
+            Einfalt er að bóka fyrirlestur um geðheilbrigði og geðsjúkdóma frá fyrirlesurum Hugrúnar. Senda þarf tölvupóst á <a href="mailto:gedfraedsla@gedfraedsla.is">gedfraedsla@gedfraedsla.is</a> eða hafa samband á <a href="https://www.facebook.com/gedfraedsla/">Facebook síðu Hugrúnar</a>. 
+          </p>
+          <p>
+            Hugrún veitir fræðslu fyrir ungmenni. Við höfum haldið fyrirlestra í grunn- og framhaldsskólum. Fræðslan okkar fjallar um geðheilbrigði, geðsjúkdóma og úrræði. Ef það eru sérstakar óskir, vinsamlegst takið það fram.  
+          </p>
+          <p>
+            Allir sem koma að starfsemi Hugrúnar vinna sjálfboðavinnu og reynum við eftir fremsta magni að veita gjaldfrjálsa fræðslu. 
+          </p>
+        </span>
+      </section>
+    </div>
+  </div>
 
-<footer class="about__contact">
-  <form method="POST" action="https://formspree.io/gedfraedsla@gedfraedsla.is">
-    <input type="text" name="name" placeholder="NAFN">
-    <input type="email" name="email" placeholder="TÖLVUPÓSTFANG">
-    <input type="subject" name="subject" placeholder="VIÐFANGSEFNI">
-    <textarea name="message" placeholder="SKILABOÐ"></textarea>
-    <button type="submit">SENDA</button>
-  </form>
+  <div class="about__text">
+      <h2>Gerast meðlimur</h2>
+  
+      <div class="text__content">    
+        {{ page.join_us }}
+      </div>
+  </div>
+
+
+
+  <div class="about__staff">
+    <h2>Stjórn félagsins</h2>
+    <ul>
+      {% for staff in page.stjorn %}
+        <li>
+          <div class="staff__image" style="background-image: url('{{ staff.mynd }}');"></div>
+          <h3 class="staff__name">{{ staff.nafn }}</h3>
+          <span class="staff__role">{{ staff.titill }}</span>
+          <span class="staff__caption">{{ staff.caption }}</span>
+          <a href="mailto:{{ staff.email }}">{{ staff.email }}</a>
+        </li> 
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="about__staff">
+    <h2>Ritstjórn</h2>
+    <ul>
+      {% for staff in page.ritstjorn %}
+        <li>
+          <div class="staff__image" style="background-image: url('{{ staff.mynd }}');"></div>
+          <h3 class="staff__name">{{ staff.nafn }}</h3>
+          <span class="staff__role">{{ staff.titill }}</span>
+          <span class="staff__caption">{{ staff.caption }}</span>
+          <a href="mailto:{{ staff.email }}">{{ staff.email }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  {{ content }}
+
+  <footer class="about__contact">
+    <form method="POST" action="https://formspree.io/gedfraedsla@gedfraedsla.is">
+      <input type="text" name="name" placeholder="NAFN">
+      <input type="email" name="email" placeholder="TÖLVUPÓSTFANG">
+      <input type="subject" name="subject" placeholder="VIÐFANGSEFNI">
+      <textarea name="message" placeholder="SKILABOÐ"></textarea>
+      <button type="submit">SENDA</button>
+    </form>
+  </div>
+
 </div>
