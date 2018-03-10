@@ -1,18 +1,35 @@
 ---
 title: Um félagið
 about: >-
-  Hægt er að gefa frjáls framlög til Hugrúnar með því að leggja inn á reikning
-  0331-26-002581, kt. 590716-0490
+  Hugrún var stofnað vorið 2016 af nemendum í hjúkrunarfræði, læknisfræði og
+  sálfræði við Háskóla Íslands. Síðan þá hafa fjölmargir aðilar komið að starfi
+  félagsins úr ýmsum greinum háskólans og víðar. Félagið hefur það að markmiði
+  að fræða ungt fólk um geðheilbrigði, geðsjúkdóma og úrræði, sem og að auka
+  samfélagslega vitund.
 
 
-  Hugrún fjármagnar fræðslu fyrir ungmenni um geðheilbrigði og geðraskanir um
-  land allt með frjálsum framlögum og styrkjum. Allir sem koma að starfsemi
-  Hugrúnar eru sjálfboðaliðar og taka félagsmenn ekki greiðslur til sín. 
+  Á meðal verkefna sem félagið hefur staðið að, auk fræðslu í framhaldsskólum,
+  eru opin fræðslukvöld í Háskóla Íslands fyrir almenning, greinaskriftaátak í
+  tilefni alþjóðlega geðheilbrigðisdagsins 10. október, fræðsla og kynningar í
+  félagsmiðstöðvum, fræðsla fyrir foreldra- og nemendafélög og fleiri.
 
 
-  Kjósir þú að greiða framlag með öðrum hætti en með millifærslu biðjum við þig
-  um að hafa samband við stjórn Hugrúnar á <mailto:gedfraedsla@gedfraedsla.is>
-  eða á [Facebook síðu Hugrúnar](https://www.facebook.com/gedfraedsla/)
+  Á hverju ári býðst háskólanemendum tækifæri á að starfa sem fræðarar fyrir
+  hönd Hugrúnar. Þeir þurfa að uppfylla ákveðin skilyrði áður en þeir mega halda
+  fræðslur. Í ár eru starfandi um 70 fræðarar sem vinna í sjálfboðavinnu að
+  ferðast um land allt í grunn- og framhaldsskóla og fræða ungmenni um
+  geðheilbrigði, -sjúkdóma og úrræði sem standa til boða. 
+
+
+  Félaginu og starfsemi félagsins er haldið uppi af áhugasömum háskólanemendum
+  sem brenna fyrir að bæta vitneskju um geðheilbrigði, útrýma fordómum og
+  styrkja ungmenni. 
+
+
+  Vefsíðan var opnuð haustið 2016 og er markmið hennar að gera fræðsluefni um
+  geðheilbrigði og geðsjúkdóma aðgengilegt, á mannamáli. Sömuleiðis eru birtar
+  reglulega fréttir af starfseminni, greinar og pistlar frá gestahöfundum sem og
+  viðtöl.
 join_us: >-
   Ef þú ert áhugasöm/samur/samt um starfið og vilt leggja Hugrúnu lið þá eru
   ýmsar leiðir til þess. Hægt er að verða sjálfboðaliði og/eða styrktaraðili
