@@ -49,7 +49,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Stjórn", name: "stjorn", widget: "list", fields: [
           {label: "Nafn", name: "nafn", widget: "string"},
           {label: "Titill", name: "titill", widget: "string"},
-          {label: "Undirtexti", name: "undirtexti", widget: "string"},
+          {label: "Undirtexti", name: "syundirtexti", widget: "string"},
           {label: "Email", name: "email", widget: "string"},
           {label: "Mynd", name: "mynd", widget: "image"}
       ]}
@@ -60,3 +60,20 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Email", name: "email", widget: "string"},
           {label: "Mynd", name: "mynd", widget: "image"}
       ]}
+
+  - name: "greinar"
+    label: "Greinar"
+    folder: "greinar"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: 
+      - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
+      - {label: "Type", name: "type", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Summary", name: "summary", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Cover photo", name: "cover_photo", widget: "image"}
+    meta:
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+
+
