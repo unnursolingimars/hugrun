@@ -687,6 +687,78 @@ p.campaign__intro {
 }
 
 /* MAIN PAGE */
+.menu__overlay {
+  z-index: 1000;
+  ul, li {
+    margin-left: 0;
+    padding-left: 0; 
+  }
+
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background: $beige;
+  color: $darkblue;
+
+  @include italic;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  & > ul {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+  
+    a:hover {
+      border-bottom: 2px solid $darkblue;
+    }
+
+    & > li {
+      font-size: 32px;
+      padding-bottom: 20px;
+
+      @include grid-media($grid--tablet-up) {
+        font-size: 65px;
+      }
+    }
+
+    & > ul {
+      font-style: normal;
+      @include sans-caps;
+      max-height: 0;
+      overflow: hidden;
+      transition: all 100ms linear;
+      padding: 0px;
+      opacity: 0;
+
+      &.open {
+        max-height: 300px;
+        overflow: visible;
+        padding: 10px;
+        margin-bottom: 20px;
+        opacity: 1;
+      }
+
+      li {
+        padding-bottom: 10px;
+        @include grid-media($grid--tablet-up) {
+          padding-right: 20px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+.menu__overlay--show {
+  display: table;
+}
+
 .header__page {
   @include serif;
   width: 100vw;
@@ -699,6 +771,26 @@ p.campaign__intro {
 
 .header__logo {
   height: 29px;
+}
+
+.overlay__logo {
+  padding-top: 12px; 
+  position: absolute;
+  left: 0; right: 0;
+  margin: auto;
+}
+
+.header__menu {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  img {
+    height: 18px;
+  }
+}
+
+#menu--close {
+  top: 16px;
 }
 
 .main__hero {

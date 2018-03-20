@@ -2,4 +2,43 @@
   <a href="/">
     <img src="/img/hugrun_logo.svg" class="header__logo" />
   </a>
+
+  <a href="#" class="header__menu" id="menu--open"><img src="/img/hamburger.svg" /></a>
 </header>
+<div class="menu__overlay">
+  <a href="/">
+    <img src="/img/hugrun_logo.svg" class="header__logo overlay__logo" />
+  </a>
+  <a href="#" class="header__menu" id="menu--close"><img src="/img/close.svg" /></a>
+  <ul>
+    <li><a href="#" class="menu_toggle">Hugrún</a></li>
+    <ul class="submenu">
+      <li><a href="/um-felagid">Um Hugrúnu</a></li>
+      <li><a href="/um-felagid#boka">Bóka fyrirlestur</a></li>
+      <li><a href="/um-felagid#styrkja">Styrkja</a></li>
+      <li><a href="/um-felagid#medlimir">Taka þátt</a></li>
+      <li><a href="/um-felagid#hafa-samband">Hafa samband</a></li>
+      <li><a href="/um-felagid#stjorn">Stjórn</a></li>
+    </ul>
+    <li><a href="/greinar">Greinar og fréttir</a></li>
+    <li><a href="/gedfraedsla">Geðfræðsla</a></li>
+    <li><a href="/hvert-get-eg-leitad">Hvert skal leita?</a></li>
+    <li><a href="/hugud">Huguð</a></li>
+  </ul>
+</div>
+<script>
+  $("#menu--open").click(function(e) {
+    e.preventDefault();
+    $(".menu__overlay").addClass("menu__overlay--show");
+  });
+
+  $("#menu--close").click(function(e) {
+    e.preventDefault();
+    $(".menu__overlay").removeClass("menu__overlay--show");
+  });
+
+  $(".menu_toggle").click(function(e) {
+    e.preventDefault();
+    $(".submenu").toggleClass("open");
+  });
+</script>
