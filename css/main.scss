@@ -575,7 +575,7 @@ ul {
     }
   }
 
-  p {
+  p, ol, ul, table {
     font-size: 18px;
     line-height: 26px;
     font-weight: 500;
@@ -586,6 +586,19 @@ ul {
       @include grid-column(9);
       @include grid-push(3);
     }
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 1px solid $darkblue;
+  }
+  td {
+    padding: 3px;
+    border: 1px solid $darkblue !important;
   }
 
   p > img {
@@ -1214,6 +1227,73 @@ p.campaign__intro {
   margin-top: 70px;
 }
 
+.about__staff {
+  @include center-container;
+  margin-top: 70px;
+
+  ul {
+    @include grid-container;
+    padding-left: 0;
+  }
+
+  li {
+    margin-left: 0;
+    margin: auto;
+    padding-left: 0;
+    
+    height: 350px;
+    max-width: 200px;
+
+    @include grid-media($no-gutter--tablet-up) {
+      @include grid-column(3);
+      max-width: none;
+    }
+  }
+}
+
+.staff__image {
+  background-color: #999;
+  padding-top: 75%;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  width: 75%;
+  margin: auto auto 40px auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.staff__name {
+  font-size: 19px;
+  @include serif;
+  color: $red;
+  text-align: center;
+  
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.staff__role {
+  @include sans-caps;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.staff__caption {
+  @include sans;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 10px 0;
+  color: #737373 !important;
+}
+
+.staff__email {
+  color: $red;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+}
 
 .about__cta {
   @include grid-container;
@@ -1271,6 +1351,40 @@ p.campaign__intro {
   }
 }
 
-.about__text {
+.about__contact {
+  @include center-container;
+  @include grid-container;
+  @include grid-media($grid--tablet-up) {
+    max-width: 500px;
+  }
+}
 
+.about__heading {
+  @include serif;
+  font-size: 40px !important;
+  color: $red;
+  text-align: center;
+}
+
+.about__contact form {
+  @include grid-column(12);
+
+  @include grid-media($no-gutter--tablet-up) {
+    @include grid-column(12);
+    margin: auto !important;
+  }
+}
+
+.about__contact input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #737373;
+  padding: 5px 0px;
+  margin-bottom: 30px;
+}
+
+.about__contact textarea {
+  width: 100%;
+  height: 6em;
+  padding: 5px;
 }

@@ -70,7 +70,7 @@ layout: default
   </div>
 
   <div class="about__staff">
-    <h2>Stjórn félagsins</h2>
+    <h2 class="about__heading">Stjórn félagsins</h2>
     <ul>
       {% for staff in page.stjorn %}
         <li>
@@ -78,13 +78,13 @@ layout: default
           <h3 class="staff__name">{{ staff.nafn }}</h3>
           <span class="staff__role">{{ staff.titill }}</span>
           <span class="staff__caption">{{ staff.caption }}</span>
-          <a href="mailto:{{ staff.email }}">{{ staff.email }}</a>
+          <a href="mailto:{{ staff.email }}" class="staff__email">{{ staff.email }}</a>
         </li> 
       {% endfor %}
     </ul>
   </div>
   <div class="about__staff">
-    <h2>Ritstjórn</h2>
+    <h2 class="about__heading">Ritstjórn</h2>
     <ul>
       {% for staff in page.ritstjorn %}
         <li>
@@ -92,7 +92,7 @@ layout: default
           <h3 class="staff__name">{{ staff.nafn }}</h3>
           <span class="staff__role">{{ staff.titill }}</span>
           <span class="staff__caption">{{ staff.caption }}</span>
-          <a href="mailto:{{ staff.email }}">{{ staff.email }}</a>
+          <a href="mailto:{{ staff.email }}" class="staff__email">{{ staff.email }}</a>
         </li>
       {% endfor %}
     </ul>
@@ -102,15 +102,15 @@ layout: default
 
   <a name="hafa-samband"></a>
   <footer class="about__contact">
+    <h2 class="about__heading">Hafa samband</h2>
     <form method="POST" action="https://formspree.io/gedfraedsla@gedfraedsla.is">
       <input type="text" name="name" placeholder="NAFN">
       <input type="email" name="email" placeholder="TÖLVUPÓSTFANG">
       <input type="subject" name="subject" placeholder="VIÐFANGSEFNI">
       <textarea name="message" placeholder="SKILABOÐ"></textarea>
-      <button type="submit">SENDA</button>
+      <button type="submit" class="article__button--red">SENDA</button>
     </form>
   </div>
-
 </div>
 
 {% include contact_footer.html %}
