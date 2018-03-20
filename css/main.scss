@@ -780,6 +780,7 @@ p.campaign__intro {
   color: $darkblue;
   text-align: center;
   background: #fff;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.14);
 }
 
 .header__logo {
@@ -1388,3 +1389,38 @@ p.campaign__intro {
   height: 6em;
   padding: 5px;
 }
+
+/* GEÐFRÆÐSLA UNDIRSÍÐA */
+
+.gedfraedsla__text {
+  @include center-container;
+  h1 {
+    @include italic;
+    text-align: center;
+    color: $red;
+    margin: 120px 0;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+
+    @include grid-media($no-gutter--tablet-up) {
+      font-size: 65px;
+    }
+  }
+  p {
+    width: 100%;
+    padding: 0 0 1em 0;
+    max-width: 620px;
+    @include serif;
+    font-size: 25px;
+    text-align: center;
+    margin: auto auto 100px auto;
+    color: $red;
+  }
+}
+
+.spacer__gif {
+  display: block;
+  height: 180px;
+}
+
