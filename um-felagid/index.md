@@ -44,7 +44,7 @@ stjorn:
     nafn: Ágúst Ingi Guðnason
     titill: Varaformaður
   - email: kristinfjola@gedfraedsla.is
-    mynd: /img/uploads/hdor.png
+    mynd: /img/uploads/14064136_10154404983868516_8102642111846955217_n.jpg
     nafn: Kristín Fjóla Reynisdóttir
     titill: Meðstjórnandi & gjaldkeri
   - email: sonja@gedfraedsla.is
@@ -52,14 +52,36 @@ stjorn:
     nafn: Sonja Sigríður Jónsdóttir
     titill: markaðsstýra
   - email: solveig@gedfraedsla.is
-    mynd: /img/uploads/hdor.png
+    mynd: /img/uploads/13603242_10209998609430009_7557535865811700701_o.jpg
     nafn: Sólveig Anna Daníelsdóttir
-    titill: fulltrúi cand psych nema
+    titill: Fulltrúi cand psych nema
+  - email: johanna.andres@gmail.com
+    mynd: /img/uploads/23795409_10213594796800748_3066190952156469635_n.jpg
+    nafn: Jóhanna Andrésdóttir
+    titill: Fræðslustýra og ritari
+  - mynd: /img/uploads/18588669_10208893977642520_340207262300070261_o.jpg
+    nafn: Kristín Hulda Gísladóttir
+    titill: Fulltrúi grunnnema í sálfræði
+  - mynd: /img/uploads/13724889_10154013408183929_2018863625508378928_o.jpg
+    nafn: Hafrós Lind Ásdísardóttir
+    titill: Fulltrúi hjúkrunarfræðinema
 ritstjorn:
   - email: thorhildurerla@gedfraedsla.is
     mynd: /img/uploads/img_1342_fotor2.jpg
     nafn: Þórhildur Erla Pálsdóttir
-    titill: Ritstjóri
+    titill: Ritstjóri og stjórnarmeðlimur
     undirtexti: ''
+  - mynd: /img/uploads/img_3343_2.jpg
+    nafn: Björn Ágúst Magnússon
+    titill: Meðlimur í ritstjórn
+  - mynd: /img/uploads/14195980_10154052957844302_7772530033028552648_o.jpg
+    nafn: Jón Viðar Pálsson
+    titill: Meðlimur í ritstjórn
+  - mynd: /img/uploads/27500737_10213302006298699_1954339227818889819_o.jpg
+    nafn: Mona Hadaya
+    titill: Meðlimur í ritstjórn
+  - mynd: /img/uploads/steini.jpg
+    nafn: Þorsteinn Gauti Gunnarsson
+    titill: Meðlimur í ritstjórn
 ---
 
