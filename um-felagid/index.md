@@ -62,7 +62,7 @@ stjorn:
   - mynd: /img/uploads/18588669_10208893977642520_340207262300070261_o.jpg
     nafn: Kristín Hulda Gísladóttir
     titill: Fulltrúi grunnnema í sálfræði
-  - mynd: /img/uploads/13724889_10154013408183929_2018863625508378928_o.jpg
+  - mynd: /img/uploads/img_0875.jpg
     nafn: Hafrós Lind Ásdísardóttir
     titill: Fulltrúi hjúkrunarfræðinema
 ritstjorn:
