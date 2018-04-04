@@ -1414,8 +1414,11 @@ p.campaign__intro {
     @include serif;
     font-size: 25px;
     text-align: center;
-    margin: auto auto 100px auto;
+    margin: auto;
     color: $red;
+  }
+  p:last-child {
+    margin: auto auto 100px auto;
   }
 }
 
@@ -1424,3 +1427,15 @@ p.campaign__intro {
   height: 180px;
 }
 
+.greinar__wrap {
+  @include center-container;
+  h1 {
+    @include italic;
+    text-align: center;
+    color: $red;
+    margin: 120px 0;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+}

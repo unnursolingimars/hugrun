@@ -1,5 +1,7 @@
 ---
 title: Um félagið
+permalink: /um-felagid
+layout: um-felagid
 about: >-
   <p> Hugrún var stofnað vorið 2016 af nemendum í hjúkrunarfræði, læknisfræði og
   sálfræði við Háskóla Íslands. Síðan þá hafa fjölmargir aðilar komið að starfi

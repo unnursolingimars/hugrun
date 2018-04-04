@@ -21,3 +21,5 @@ collections:
   pages:
     permalink: pretty
 
+  greinar:
+    permalink: pretty
