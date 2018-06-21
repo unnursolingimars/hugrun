@@ -1,7 +1,7 @@
 ---
 layout: article
 type: page
-title: Hér er frein
+title: Hér er grein
 summary: Hér er undirfyrirsögn
 cover_photo: /img/uploads/img_0267.jpg
 ---
