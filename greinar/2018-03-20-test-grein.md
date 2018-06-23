@@ -1,10 +1,12 @@
 ---
 layout: article
 type: page
-title: Test grein
-summary: Stutt um greinina
-cover_photo: /img/uploads/hugud_campaign.jpg
+title: Hér er grein
+summary: Hér er undirfyrirsögn
+cover_photo: /img/uploads/img_0267.jpg
 ---
-Grein með myndum og dóti
+Hér er meginmál
 
-![](/img/uploads/hugud_campaign.jpg)
+![null](/img/uploads/img_0133.jpg)
+
+Meira meginmál
