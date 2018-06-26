@@ -3,7 +3,7 @@ layout: default
 ---
 {% include top_bar.html %}
 
-<section class="hero hero__container--campaign rotate_colors" style="max-height: 400px; background-color: #151A41;">
+<section class="hero hero__container--campaign rotate_colors" style="max-height: 400px; background-color: #151A41; {% if page.cover_photo %}background-image: url('{{ page.cover_photo }}');{% endif %}">
 	<h1 class="article__heading">
 		{{ page.title }}
 	</h1>

@@ -22,4 +22,5 @@ collections:
     permalink: pretty
 
   greinar:
-    permalink: pretty
+    permalink: /greinar/:year/:month/:day/:title/
+    output: true
