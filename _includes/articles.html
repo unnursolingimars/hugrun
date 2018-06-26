@@ -5,7 +5,7 @@
         </div>
         <span class="main__post--date">{{ item.date | date: "%d/%m/%Y" }}</span>
         <h4>{{ item.title }}</h4>
-        <p>{{ item.content | strip_html | truncate }}</p>
+        <p>{% if item.summary %}{{ item.summary }}{% else %}{{ item.content | strip_html | truncate }}{% endif %}</p>
         <a href="{{ item.url }}" class="main__post--read">Lesa</a>
       </article>
   {% endfor %}
