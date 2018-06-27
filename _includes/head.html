@@ -14,10 +14,19 @@
   <meta property="og:image"              content="https://gedfraedsla.is/img/uploads/hugud_campaign.jpg" />
 {% else %}
   <meta property="og:url"                content="https://gedfraedsla.is/" />
-  <meta property="og:type"               content="article" />
-  <meta property="og:title"              content="Huguð" />
-  <meta property="og:description"        content="Sjö einstaklingar deila upplifun sinni af ólíkum geðsjúkdómum og geðröskunum. Hugum að geðheilbrigði. Verum #Huguð." />
+  <meta property="og:type"               content="website" />
+  <meta property="og:title"              content="Hugrún{% if page.title %} – {{ page.title }}{% endif %}" />
+
+  {% if page.excerpt %}
+  <meta property="og:description"        content="{{ page.excerpt | strip_html | truncate }}" />
+  {% else %}
+  <meta property="og:description"        content="Hugrún er félag stofnað af hópi háskólanema í hjúkrunarfræði, læknisfræði og sálfræði, sem hefur það að markmiði að auka þekkingu ungs fólks á geðheilsu." />
+  {% endif %}
+  {% if page.cover_photo %}
+  <meta property="og:image"              content="https://gedfraedsla.is{{ page.cover_photo }}" />
+  {% else %}
   <meta property="og:image"              content="https://gedfraedsla.is/img/uploads/hugud_campaign.jpg" />
+  {% endif %}
 {% endif %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
