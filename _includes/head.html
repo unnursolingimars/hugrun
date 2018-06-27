@@ -23,7 +23,7 @@
   <meta property="og:description"        content="Hugrún er félag stofnað af hópi háskólanema í hjúkrunarfræði, læknisfræði og sálfræði, sem hefur það að markmiði að auka þekkingu ungs fólks á geðheilsu." />
   {% endif %}
   {% if page.cover_photo %}
-  <meta property="og:image"              content="https://gedfraedsla.is{{ page.cover_photo }}" />
+  <meta property="og:image"              content="{{ page.cover_photo | prepend: "https://gedfraedsla.is" }}" />
   {% else %}
   <meta property="og:image"              content="https://gedfraedsla.is/img/uploads/hugud_campaign.jpg" />
   {% endif %}
