@@ -1,7 +1,5 @@
 ---
 title: Um félagið
-permalink: /um-felagid
-layout: um-felagid
 about: >-
   <p> Hugrún var stofnað vorið 2016 af nemendum í hjúkrunarfræði, læknisfræði og
   sálfræði við Háskóla Íslands. Síðan þá hafa fjölmargir aðilar komið að starfi
@@ -37,53 +35,44 @@ join_us: >-
   grunn- og framhaldsskóla með fræðslu Hugrúnar og taka almennt þátt í starfsemi
   félagsins. </p>
 stjorn:
-  - email: elisabet@gedfraedsla.is
-    mynd: /img/uploads/elísabetbry.jpg
-    nafn: Elísabet Brynjarsdóttir
-    titill: Formaður
-  - email: agust@gedfraedsla.is
-    mynd: /img/uploads/29542354_10215301905796647_3076354296665604096_o.jpg
-    nafn: Ágúst Ingi Guðnason
-    titill: Varaformaður
-  - email: kristinfjola@gedfraedsla.is
-    mynd: /img/uploads/14064136_10154404983868516_8102642111846955217_n.jpg
-    nafn: Kristín Fjóla Reynisdóttir
-    titill: Meðstjórnandi & gjaldkeri
-  - email: sonja@gedfraedsla.is
-    mynd: /img/uploads/_h1a3220.jpg
-    nafn: Sonja Sigríður Jónsdóttir
-    titill: markaðsstýra
-  - email: solveig@gedfraedsla.is
-    mynd: /img/uploads/13603242_10209998609430009_7557535865811700701_o.jpg
-    nafn: Sólveig Anna Daníelsdóttir
-    titill: Fulltrúi cand psych nema
-  - email: johanna.andres@gmail.com
-    mynd: /img/uploads/23795409_10213594796800748_3066190952156469635_n.jpg
-    nafn: Jóhanna Andrésdóttir
-    titill: Fræðslustýra og ritari
-  - mynd: /img/uploads/18588669_10208893977642520_340207262300070261_o.jpg
+  - email: kristinhulda2112@gmail.com
+    mynd: /img/uploads/kristinhulda.jpeg
     nafn: Kristín Hulda Gísladóttir
+    titill: Formaður
+  - email: kristinfjola@gmail.com
+    mynd: /img/uploads/kristinfjola.jpg
+    nafn: Kristín Fjóla Reynisdóttir
+    titill: Varaformaður
+  - email: soleysiggeirsdottir@gmail.com
+    mynd: /img/uploads/soley.jpeg
+    nafn: Sóley Siggeirsdóttir
+    titill: Fræðslustjóri
+  - email: sonjabjorg92@gmail.com
+    mynd: /img/uploads/sonjabjorg.jpg
+    nafn: Sonja Björg Jóhannsdóttir
+    titill: 'Markaðs- og kynningarstjóri '
+  - email: silja.ran.gudmundsdottir@gmail.com
+    mynd: /img/uploads/silja.jpg
+    nafn: Silja Rán Guðmundsdóttir
+    titill: Ritstjóri
+  - email: roshildur.arna@gmail.com
+    mynd: /img/uploads/roshildur.jpg
+    nafn: Róshildur Arna Ólafsdóttir
     titill: Fulltrúi grunnnema í sálfræði
-  - mynd: /img/uploads/img_0875.jpg
-    nafn: Hafrós Lind Ásdísardóttir
+  - email: tryggviofeigs@gmail.com
+    mynd: /img/uploads/tryggvi.jpeg
+    nafn: Tryggvi Ófeigsson
+    titill: Fulltrúi læknanema
+  - email: valdisbjarna94@gmail.com
+    mynd: ''
+    nafn: Valdís Bjarnadóttir
     titill: Fulltrúi hjúkrunarfræðinema
-ritstjorn:
-  - email: thorhildurerla@gedfraedsla.is
-    mynd: /img/uploads/img_1342_fotor2.jpg
-    nafn: Þórhildur Erla Pálsdóttir
-    titill: Ritstjóri og stjórnarmeðlimur
-    undirtexti: ''
-  - mynd: /img/uploads/img_3343_2.jpg
-    nafn: Björn Ágúst Magnússon
-    titill: Meðlimur í ritstjórn
-  - mynd: /img/uploads/14195980_10154052957844302_7772530033028552648_o.jpg
-    nafn: Jón Viðar Pálsson
-    titill: Meðlimur í ritstjórn
-  - mynd: /img/uploads/27500737_10213302006298699_1954339227818889819_o.jpg
-    nafn: Mona Hadaya
-    titill: Meðlimur í ritstjórn
-  - mynd: /img/uploads/steini.jpg
-    nafn: Þorsteinn Gauti Gunnarsson
-    titill: Meðlimur í ritstjórn
+  - email: helgadottirsissa@gmail.com
+    mynd: /img/uploads/sissa.jpg
+    nafn: Sigríður Helgadóttir
+    titill: Fulltrúi meistaranema í klínískri sálfræði
+ritstjorn: []
+layout: um-felagid
+permalink: /um-felagid
 ---
 
