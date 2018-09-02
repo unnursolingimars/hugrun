@@ -64,7 +64,7 @@ stjorn:
     nafn: Tryggvi Ófeigsson
     titill: Fulltrúi læknanema
   - email: valdisbjarna94@gmail.com
-    mynd: ''
+    mynd: /img/uploads/39077328_2074690256129613_8791285106967838720_n.jpg
     nafn: Valdís Bjarnadóttir
     titill: Fulltrúi hjúkrunarfræðinema
   - email: helgadottirsissa@gmail.com
