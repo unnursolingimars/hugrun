@@ -1,7 +1,7 @@
 ---
 layout: article
 type: page
-title: GEÐFRÆÐSLUKVÖLD HUGRÚNAR
+title: FRÆÐSLUKVÖLD HUGRÚNAR
 summary: >-
   Á geðfræðslukvöldunum koma fram bæði einstaklingar sem hafa glímt við geðrænan
   vanda og fagaðilar, og tala um geðsjúkdóma, geðheilsu og úrræði.
