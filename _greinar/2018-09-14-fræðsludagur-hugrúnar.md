@@ -17,8 +17,4 @@ Mæting á fræðsludaginn er eitt af þremur skilyrðum sem þarf að uppfylla 
 
 Hægt að sækja um undanþágu frá mætingu á fræðslukvöld í skráningarskjalinu, með því að senda póst á hugrunhugur@gmail.com eða með facebookskilaboðum til [Hugrúnar](https://www.facebook.com/gedfraedsla/). Enn eru þrjú fræðslukvöld eftir, 17., 18. og 19. september kl. 16:30 í fyrirlestrarsalnum í Veröld, húsi Vigdísar. 
 
->
->
-> [Skráning fræðara vetrarins fer fram hér!](https://docs.google.com/forms/d/e/1FAIpQLSfSg1jSYORmdWbC9qNKc8G9qeroYc2F1Lp9h-5RtJSZv7rliw/viewform)
->
->
+> [Skráning fræðara fer fram hér!](https://docs.google.com/forms/d/e/1FAIpQLSfSg1jSYORmdWbC9qNKc8G9qeroYc2F1Lp9h-5RtJSZv7rliw/viewform)
