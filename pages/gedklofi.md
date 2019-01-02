@@ -31,7 +31,7 @@ Trufluð hugsun felur í sér að hugsanir einstaklings með geðklofa víkja fr
 
 Þau einkenni sem eru talin upp hér að ofan eru jafnan kölluð “jákvæð einkenni geðklofa” en þá er átt við einkenni sem bætast við venjulega upplifun fólks. Á hinn bóginn er talað um “neikvæð einkenni geðklofa” og þá er átt við eitthvað sem einstaklingurinn missir. Þar er um að ræða til dæmis erfiðleikar við einbeitingu og athygli, skort á tjáningu tilfinninga, frumkvæði eða framtakssemi. Þessum einkennum má lýsa sem svo að einstaklingurinn verður sljór eða flatur. Þetta framtaksleysi getur orðið til þess að einstaklingurinn tekur ekki þátt í þeirri dagskrá sem honum er falin og gerir ekkert.
 
-Við greiningu á geðklofa metur sálfræðingur, læknir eða hjúkrunarfræðingur alvarleika einkenna einstaklingsins. Hægt er að leita sér aðstoðar á heilbrigðisstofnunum en sé alvarleikinn mikill eða tengsl við raunveruleikann verulega skert er mælt með því að leita sér aðstoðar á Bráðamóttöku geðsviðs á Landspítalanum. Bráðamóttakan er opin milli 12 og 19 á virkum dögum og milli 13 og 19 um helgar. Einnig er hægt að fá samband í gegnum síma 543-4050.
+Við greiningu á geðklofa metur sálfræðingur, læknir eða hjúkrunarfræðingur alvarleika einkenna einstaklingsins. Hægt er að leita sér aðstoðar á heilbrigðisstofnunum en sé alvarleikinn mikill eða tengsl við raunveruleikann verulega skert er mælt með því að leita sér aðstoðar á Bráðamóttöku geðsviðs á Landspítalanum. Bráðamóttakan er opin milli 12 og 19 á virkum dögum og milli 13 og 19 um helgar. Einnig er hægt að fá samband í gegnum síma 543-2050.
 
 Höfundur texta er Ingibjörg Johnson M.Sc. í réttarsálfræði og cand.psych nemi við Háskóla Íslands.
 
