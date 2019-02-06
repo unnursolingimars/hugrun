@@ -24,3 +24,7 @@ collections:
   greinar:
     permalink: /greinar/:year/:month/:day/:title/
     output: true
+
+  gamlar_greinar:
+    permalink: /gamlar_greinar/:year/:month/:day/:title/
+    output: true

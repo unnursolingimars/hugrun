@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% include top_bar.html %}
+
+<div class="greinar__wrap">
+  <h1>Fréttir og greinar</h1>
+  <section class="main__posts">
+  {% for item in site.gamlar_greinar %}
+      <article class="main__post--article">
+        <div class="main__post--image" style="background-image:url('{{ item.cover_photo }}');" >
+        </div>
+        <span class="main__post--date">{{ item.date | date: "%d/%m/%Y" }}</span>
+        <h4>{{ item.title }}</h4>
+        <p>{% if item.summary %}{{ item.summary }}{% else %}{{ item.content | strip_html | truncate }}{% endif %}</p>
+        <a href="{{ item.url }}" class="main__post--read">Lesa</a>
+      </article>
+  {% endfor %}
+  </section>  
+</div>
