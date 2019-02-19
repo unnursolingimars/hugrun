@@ -23,7 +23,7 @@ Heimilislæknar gera tilvísanir til:
 
 * Geðlækna
 * Sálfræðinga
-* VIRK endurhæfingu
+* VIRK endurhæfingar
 * Heimahjúkrunar
 * Og margt fleira
 
@@ -81,7 +81,7 @@ Drekaslóð eru stuðningssamtök fyrir þolendur hvers kyns ofbeldis en þar er
 
 Bjarkarhlíð er miðstöð fyrir þolendur ofbeldis. Markmið Bjarkarhlíðar er að veita stuðning og ráðgjöf ásamt fræðslu og umfjöllun um eðli og afleiðingar ofbeldis.
 
-**VIRK endurhæfing – Miðar að atvinnuþátttöku og að fólk sé tilbúið til endurhæfingar**
+**VIRK endurhæfing – miðar að atvinnuþátttöku og að fólk sé tilbúið til endurhæfingar**
 
 Fyrir fólk sem hefur dottið eða er að detta úr skóla eða af vinnumarkaði. Umsókn er gerð í gegnum heilsugæslu. 
 
@@ -104,6 +104,14 @@ Aðstoðar foreldra við uppeldi og verndar börn þar sem uppeldi er ábótavan
 **Heimilisfriður / Karlar til ábyrgðar – Sálfræðimeðferð fyrir gerendur í heimilisofbeldi**
 
 Niðurgreidd meðferð fyrir ofbeldisgerendur í nánum samböndum af báðum kynjum ásamt áhættumatsviðtöl við þolanda ofbeldis. Fyrir þá sem beita andlegu og líkamlegu ofbeldi. 
+
+**Píeta-samtökin**
+
+Gjaldfrjáls þjónusta fyrir einstaklinga með sjálfsvígshugsanir eða sjálfsskaðandi hegðun og aðstandendur þeirra.
+
+**Sálfræðiþjónusta háskólanema**
+
+Sálfræðiþjónusta fyrir háskólanema og börn þeirra. Þjónustan er á vegun Sálfræðideildar Háskóla Íslands. 
 
 ## Sorg og missir
 
