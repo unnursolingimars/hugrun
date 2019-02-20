@@ -109,9 +109,9 @@ Niðurgreidd meðferð fyrir ofbeldisgerendur í nánum samböndum af báðum ky
 
 Gjaldfrjáls þjónusta fyrir einstaklinga með sjálfsvígshugsanir eða sjálfsskaðandi hegðun og aðstandendur þeirra.
 
-**Sálfræðiþjónusta háskólanema**
+**Sálfræðiráðgjöf háskólanema**
 
-Sálfræðiþjónusta fyrir háskólanema og börn þeirra. Þjónustan er á vegun Sálfræðideildar Háskóla Íslands. 
+Sálfræðiþjónusta fyrir háskólanema og börn þeirra. Þjónustan er á vegum Sálfræðideildar Háskóla Íslands. 
 
 ## Sorg og missir
 
