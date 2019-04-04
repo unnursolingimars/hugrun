@@ -1,7 +1,7 @@
 ---
 layout: article
 type: page
-title: Aðalfundur og kosningar
+title: AÐALFUNDUR OG KOSNINGAR
 summary: >-
   Aðalfundur Hugrúnar verður haldinn þriðjudaginn 9. apríl kl. 17 í stofu 201 í
   Odda, á háskólasvæði HÍ.  Á aðalfundi er ársskýrsla lögð fram auk reikninga,
