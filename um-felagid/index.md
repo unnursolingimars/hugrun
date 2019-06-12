@@ -39,37 +39,37 @@ stjorn:
     mynd: /img/uploads/kristinhulda.jpeg
     nafn: Kristín Hulda Gísladóttir
     titill: Formaður
-  - email: kristinfjola@gmail.com
-    mynd: /img/uploads/kristinfjola.jpg
-    nafn: Kristín Fjóla Reynisdóttir
-    titill: Varaformaður
-  - email: soleysiggeirsdottir@gmail.com
-    mynd: /img/uploads/soley.jpeg
-    nafn: Sóley Siggeirsdóttir
-    titill: Fræðslustjóri
-  - email: sonjabjorg92@gmail.com
-    mynd: /img/uploads/sonjabjorg.jpg
-    nafn: Sonja Björg Jóhannsdóttir
-    titill: 'Markaðs- og kynningarstjóri '
-  - email: silja.ran.gudmundsdottir@gmail.com
-    mynd: /img/uploads/silja.jpg
-    nafn: Silja Rán Guðmundsdóttir
-    titill: Ritstjóri
   - email: roshildur.arna@gmail.com
     mynd: /img/uploads/roshildur.jpg
-    nafn: Róshildur Arna Ólafsdóttir
+    nafn: 'Róshildur Arna Ólafsdóttir '
+    titill: Varaformaður/Markaðsstýra
+  - email: veggur85@gmail.com
+    mynd: /img/uploads/bjorgvin.jpg
+    nafn: Björgvin Freyr Þorsteinsson
+    titill: Fræðslustjóri
+  - email: gudrunjonath@gmail.com
+    mynd: /img/uploads/guðrún.jpg
+    nafn: 'Guðrún Jóna Þrastardóttir '
+    titill: 'Meðstjórnandi '
+  - email: gylfihvannberg@gmail.com
+    mynd: /img/uploads/gylfi.jpg
+    nafn: Gylfi Hvannberg
+    titill: Ritstjóri
+  - email: karengeirsd@gmail.com
+    mynd: /img/uploads/karen.jpg
+    nafn: Karen Geirsdóttir
     titill: Fulltrúi grunnnema í sálfræði
-  - email: tryggviofeigs@gmail.com
-    mynd: /img/uploads/tryggvi.jpeg
-    nafn: Tryggvi Ófeigsson
+  - email: sigrunharpa60@gmail.com
+    mynd: /img/uploads/sigrún.jpg
+    nafn: Sigrún Harpa Stefánsdóttir
     titill: Fulltrúi læknanema
-  - email: valdisbjarna94@gmail.com
-    mynd: /img/uploads/39077328_2074690256129613_8791285106967838720_n.jpg
-    nafn: Valdís Bjarnadóttir
+  - email: birnayrmagnusdottir@gmail.com
+    mynd: /img/uploads/birna.jpg
+    nafn: Birna Ýr Magnúsdóttir
     titill: Fulltrúi hjúkrunarfræðinema
-  - email: helgadottirsissa@gmail.com
-    mynd: /img/uploads/sissa.jpg
-    nafn: Sigríður Helgadóttir
+  - email: hrundjoh@gmail.com
+    mynd: /img/uploads/hrund.jpg
+    nafn: 'Hrund Jóhannesdóttir '
     titill: Fulltrúi meistaranema í klínískri sálfræði
 ritstjorn: []
 layout: um-felagid
